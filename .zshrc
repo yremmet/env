@@ -13,8 +13,11 @@ fi
 source $ZSH/oh-my-zsh.sh
 export EDITOR='nvim'
 export LANG=de_DE.UTF-8
-#
-export HOMEBREW_GITHUB_API_TOKEN="4c1c0c8c4038e89670b19b71390c6361a722b5ba"
 export PATH=$PATH:~/.config/bin:/Users/yremmet/DEV/servicebroker/cf-helper/scripts
 export SB_DEV_PATH=/Users/yremmet/DEV/servicebroker
-source ~/.config/shell/index.sh
+
+source ~/env/shell/index.sh 
+if [[ -f ~/env/secrets ]]; then
+  source ~/env/secrets
+fi
+

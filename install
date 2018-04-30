@@ -1,0 +1,31 @@
+#!/bin/sh
+chmod +x
+
+function installBundle() {
+    echo "Installing $1"
+    pushd ~/env/mac/bundles/$1
+    brew bundle
+    popd
+}
+
+pushd $HOME
+echo "Installing zsh"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+popd
+
+
+echo "Copying zshrc"
+cp $HOME/env/.zshrc $HOME/
+
+
+if [ $(uname) = "Darwin" ]; then
+    installBundle "Quickstart"
+    defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/env/mac/iterm"
+    installBundle "Essentials"
+    installBundle "Cloud"
+    installBundle "FunTools"
+else
+    ## do some apt-get or something
+fi
+
+
