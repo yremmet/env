@@ -1,5 +1,4 @@
 #!/bin/sh
-chmod +x
 
 function installBundle() {
     echo "Installing $1"
@@ -9,10 +8,19 @@ function installBundle() {
 }
 
 pushd $HOME
-echo "Installing zsh"
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    echo "Installing zsh"
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &
+    echo "Installing brew"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 popd
+mkdir /tmp/install
 
+pushd /tmp/install
+    echo "Install Hack-Font"
+    wget https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
+    unzip Hack-v3.003-ttf.zip
+    cp ./ttf/* ~/Library/Fonts/
+popd
 
 echo "Copying zshrc"
 cp $HOME/env/.zshrc $HOME/
@@ -25,6 +33,7 @@ if [ $(uname) = "Darwin" ]; then
     installBundle "Cloud"
     installBundle "FunTools"
 else
+    echo "done"
     ## do some apt-get or something
 fi
 

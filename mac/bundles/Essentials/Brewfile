@@ -1,9 +1,6 @@
 tap "cloudfoundry/tap"
-tap "homebrew/fuse"
 tap "homebrew/core"
-tap "homebrew/versions"
 tap "homebrew/boneyard"
-tap "homebrew/games"
 tap "homebrew/bundle"
 tap "homebrew/services"
 tap "starkandwayne/cf"
@@ -13,7 +10,7 @@ tap "caskroom/versions"
 tap "caskroom/cask"
 tap "neovim/neovim"
 
-
+cask "caskroom/versions/java8"
 brew "base64"
 brew "direnv"
 brew "docker"
@@ -64,7 +61,11 @@ cask "quicklook-json"
 cask "quicklookase"
 cask "virtualbox"
 cask "caskroom/drivers/logitech-options"
-cask "caskroom/versions/java8"
+cask "gpg-suite"
+cask "arq"
+cask "wire"
+cask "bartender"
+
 mas "1Blocker", id: 1107421413
 mas "Airmail 3", id: 918858936
 mas "AutoMute", id: 1118136179
