@@ -13,8 +13,9 @@ pushd $HOME
     echo "Installing brew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 popd
-mkdir /tmp/install
 
+
+mkdir /tmp/install
 pushd /tmp/install
     echo "Install Hack-Font"
     wget https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
