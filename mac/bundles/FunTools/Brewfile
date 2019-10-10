@@ -3,15 +3,17 @@ brew "ffmpeg"
 brew "imagemagick"
 brew "elixir"
 cask "osxfuse"
-mas "Affinity Designer", id: 824171161
-mas "Gemini", id: 463541543
-mas "Leaf", id: 576338668
-mas "Pixelmator", id: 407963104
-mas "Tyme2", id: 1063996724
-mas "LightBlue", id: 639944780
 cask "ngrok"
 cask "iina"
 brew "aria2"
 brew "asciinema"
 brew "encfs"
 cask "cryptomator"
+
+
+mas "Affinity Designer", id: 824171161
+mas "Gemini", id: 463541543
+mas "Leaf", id: 576338668
+mas "Pixelmator", id: 407963104
+mas "Tyme2", id: 1063996724
+mas "LightBlue", id: 639944780

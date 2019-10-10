@@ -10,7 +10,6 @@ tap "caskroom/versions"
 tap "caskroom/cask"
 tap "neovim/neovim"
 
-cask "caskroom/versions/java8"
 brew "base64"
 brew "direnv"
 brew "docker"
@@ -65,6 +64,7 @@ cask "gpg-suite"
 cask "arq"
 cask "wire"
 cask "bartender"
+cask "thefuck"
 
 mas "1Blocker", id: 1107421413
 mas "Airmail 3", id: 918858936

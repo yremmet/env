@@ -36,7 +36,7 @@ function get_website()
 
 
 function id(){
-  for ((i=1;i<=$1;i++)); 
+  for ((i=1;i<=${1:-"1"};i++)); 
   do 
 	  uuidgen
   done
