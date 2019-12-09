@@ -1,15 +1,14 @@
 brew "youtube-dl"
 brew "ffmpeg"
 brew "imagemagick"
-brew "elixir"
 cask "osxfuse"
 cask "ngrok"
 cask "iina"
 brew "aria2"
 brew "asciinema"
 brew "encfs"
+cask "latest"
 cask "cryptomator"
-
 
 mas "Affinity Designer", id: 824171161
 mas "Gemini", id: 463541543

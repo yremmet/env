@@ -70,3 +70,12 @@ function wait(){
         sleep $sleep
     done
 }
+
+function update(){
+    brew update
+    brew upgrade
+    for app in $(brew cask list); do 
+        brew cask reinstall $app
+    done
+    brew cleanup
+}
