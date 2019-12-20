@@ -1,3 +1,12 @@
+export BOSH_ENV_FOLDER="${DEV_PATH}/bosh/"
+
+function bosh-env(){
+    export BOSH_ENVIRONMENT=vbox
+    export BOSH_CLIENT=admin
+    export BOSH_CLIENT_SECRET=`bosh int $BOSH_ENV_FOLDER/$1/creds.yml --path /admin_password`
+}
+
+
 function bd(){
 	echo $1
 	if [[ "$1" != "" ]]; then
@@ -15,12 +24,12 @@ function bdd(){ #bosh delete deployment
 }
 
 function bcd(){ #bosh clear deployments
-	bd | awk '{print $1}' | while read line ; do bdd $line ; done
+	bd | awk '{print $1}' | while read line ; do echo "bdd $line" ; done
 }
 
 
 function cleanBosh(){ 
-	bosh releases | grep -v "*" | awk '{print($3)}' |while read line ; do echo $line; bosh delete-release $line -n ; done
+	bosh releases | grep -v "*" | awk '{print($3)}' |while read line ; do echo "bosh delete-release $line -n" ; done
 }
 
 

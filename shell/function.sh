@@ -34,11 +34,22 @@ function get_website()
 	wget --limit-rate=200k --no-clobber --convert-links --random-wait -r -p -E -e robots=off -U mozilla $1 ; 
 }
 
+function rand(){
+    cat /dev/urandom | env LC_CTYPE=C tr -dc ${1:-'a-zA-Z0-9'} | fold -w ${2:-32} | head -n 1
+}
+
+function random_small(){
+    rand 'a-z0-9' $1
+}
+
+function rnd(){
+    rand "a-zA-Z0-9!@#$%^&*()_+?><~\`;'" $1
+}
 
 function id(){
-  for ((i=1;i<=$1;i++)); 
+  for ((i=1;i<=${1:-"1"};i++)); 
   do 
-	  uuidgen
+    echo "$(random_small 8)-$(random_small 4)-$(random_small 4)-$(random_small 12)"
   done
 }
 
@@ -89,4 +100,31 @@ function pass(){
       fi
       linebreak=true
     done <<< $(passbolt find | grep -i "$serach_params")    
+}
+
+function wait(){
+    if [[ $1 == "-n" ]]; then
+        sleep="$2"
+        shift;
+        shift;
+    else
+        sleep="2"
+    fi
+
+    let "length = $# - 1"
+    array=${*}
+
+    while true; do
+        eval ${array}
+        sleep $sleep
+    done
+}
+
+function update(){
+    brew update
+    brew upgrade
+    for app in $(brew cask list); do 
+        brew cask reinstall $app
+    done
+    brew cleanup
 }

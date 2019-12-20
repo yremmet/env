@@ -5,18 +5,22 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 
 if [ $(uname) = "Darwin" ]; then
-  plugins=(git cf zsh-syntax-highlighting osx)
+  plugins=(git docker docker-compose kubectl thefuck osx iterm2)
 else 
-  plugins=(git cf zsh-syntax-highlighting)
+  plugins=(git)
 fi
 
 source $ZSH/oh-my-zsh.sh
 export EDITOR='nvim'
 export LANG=de_DE.UTF-8
-export PATH=$PATH:~/.config/bin:/Users/yremmet/DEV/servicebroker/cf-helper/scripts
-export SB_DEV_PATH=/Users/yremmet/DEV/servicebroker
+export DEV_PATH="~/DEV"
+export SB_DEV_PATH="${DEV_PATH}/osb"
 
 source ~/env/shell/index.sh 
+[ -f $(brew --prefix asdf)/asdf.sh ] && source $(brew --prefix asdf)/asdf.sh
+[ -f $(brew --prefix asdf)/asdf.sh ] && source $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
+[ -f ~/.asdf/plugins/java/set-java-home.sh ] && source ~/.asdf/plugins/java/set-java-home.sh
+
 if [[ -f ~/env/secrets ]]; then
   source ~/env/secrets
 fi
