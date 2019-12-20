@@ -41,3 +41,52 @@ function id(){
 	  uuidgen
   done
 }
+
+function pass(){
+    ou=false
+    op=false
+    on=false
+    serach_params=()
+    while [[ $# -gt 0 ]] ; do
+        var=$1
+        case $var in
+            "-p")
+                op=true
+                shift
+            ;;
+            "-u")
+                ou=true;
+                shift
+            ;;
+            "-n")
+                on=true;
+                shift
+            ;;
+            *)
+                serach_params+=($var)
+                shift
+            ;;
+        esac
+    done
+#    [[ !ou && !op && !on ]] && ou=true; op=true; on=true
+
+    while IFS= read -r line ; do
+      user=$(echo $line | awk '{print $2}')
+      name=$(echo $line | awk '{print $1}') 
+      id=$(echo $line | awk '{print $6}') 
+      password=$(passbolt get $id |  gpg -d 2> /dev/null)
+      if [[ $linebreak ]]; then
+        printf "\n"
+      fi
+      if [[ $on ]]; then
+        printf "$name\t"
+      fi
+      if [[ $ou ]]; then
+        printf "$user\t"
+      fi
+      if [[ $op ]]; then
+        printf "$password\t"
+      fi
+      linebreak=true
+    done <<< $(passbolt find | grep -i "$serach_params")    
+}
