@@ -5,6 +5,7 @@ tap "homebrew/services"
 tap "starkandwayne/cf"
 tap "minio/stable"
 
+brew "asdf"
 brew "base64"
 brew "direnv"
 brew "docker"
@@ -29,13 +30,14 @@ cask "Slack"
 cask "bitbar"
 cask "chromium"
 cask "docker"
-cask "spamsieve"
 cask "keka"
 cask "caskroom/drivers/logitech-options"
 cask "gpg-suite"
 cask "arq"
 cask "wire"
 cask "bartender"
+cask "intellij-idea"
+cask "little-snitch"
 
 mas "1Blocker", id: 1107421413
 mas "AutoMute", id: 1118136179

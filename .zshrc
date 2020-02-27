@@ -18,10 +18,10 @@ export SB_DEV_PATH="${DEV_PATH}/osb"
 
 source ~/env/shell/index.sh 
 [ -f $(brew --prefix asdf)/asdf.sh ] && source $(brew --prefix asdf)/asdf.sh
-[ -f $(brew --prefix asdf)/asdf.sh ] && source $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
 [ -f ~/.asdf/plugins/java/set-java-home.sh ] && source ~/.asdf/plugins/java/set-java-home.sh
 
-if [[ -f ~/env/secrets ]]; then
-  source ~/env/secrets
+for f in $(ls ~/env/secrets/); docker
+ . $f
 fi
 
+eval "$(direnv hook zsh)"

@@ -15,6 +15,16 @@ function installLanguages(){
 }
 
 function lang(){
-    asdf install $1 $(asdf list-all $1 | grep -v master | grep -v beta | tail -n 1)
-    asdf global $1 $(asdf list-all $1 | grep -v master  | grep -v beta | tail -n 1)
+    asdf plugin-add $1
+    version=$(asdf list-all $1 | grep -v master | grep -v beta | grep -v rc | tail -n 1)
+    asdf install $1 $version
+    asdf global $1 $version
+}
+
+
+function lang_Version(){
+    asdf plugin-add $1
+    version=$(asdf list-all $1 | grep $2 | tail -n 1)
+    asdf install $1 $version
+    asdf global $1 $version
 }

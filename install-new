@@ -28,8 +28,16 @@ readEnv newHostname "HOSTNAME"
 if [ "$type" == "macOS" ]; then
     . setup/brew
     . setup/mac
+    . setup/asdf
 
     readEnv bundles "BUNDLES"
+    readEnv asdf "ASDF"
+    readEnv lockmsg "LOCKMESSAGE"
+    for lang in $asdf; do
+    set -x
+        lang $lang
+        set +x
+    done
     for bundle in $bundles; do
         installBundle $bundle
     done
@@ -37,6 +45,7 @@ if [ "$type" == "macOS" ]; then
     defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/env/mac/iterm" 
     setSaneDefaults
     sudo scutil --set HostName ${newHostname}
+    sudo write /Library/Preferences/com.apple.loginwindow LoginwindowText $lockmsg
 
 fi
 

@@ -1,5 +1,3 @@
-cask "intellij-idea"
-cask "little-snitch"
 cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
