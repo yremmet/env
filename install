@@ -1,4 +1,5 @@
 #!/bin/sh
+. setup/environment
 function installLanguages(){
     asdf plugin-add elixir 
     asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
@@ -27,6 +28,20 @@ function installBundle() {
     popd
 }
 
+
+if [ ! -f "./env" ]; then
+    echo "Env File does not exist. Name enviorment name."
+    read env_name
+    if [ ! -f "./envs/$env_name" ]; then
+        echo "No pre configured environment found. Create new config"
+        createEnvironment $env_name
+        saveEnironemnt $env_name
+    else
+        cp "./envs/$env_name" ./env
+    fi
+    updateEnvironment $env_name
+    exit 1
+fi
 
 pushd $HOME
     echo "Installing zsh"

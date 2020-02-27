@@ -1,0 +1,80 @@
+function unsettEnvEnv(){
+    unset type
+    unset missing
+    unset fileVault
+    unset bundles
+}
+function createEnvironment(){
+
+    local name=$1
+    if [ $(uname) = "Darwin" ]; then
+        local type=mac
+        read -r -p "Enable FileVault (y)? [y/N] " fileVault
+        c=${fileVault:-"y"}
+        case "$fileVault" in
+        [yY][eE][sS]|[yY]) 
+            fileVault=true
+            ;;
+        *)
+            fileVault=false
+            ;;
+        esac
+        read -r -p "Insert missing text: " missing
+        read -r -p "Name Bundle you want to install ($(ls mac/bundles/))" bundles
+        bundles=${bundles:-$(ls "mac/bundles/")}
+        write "NAME" $name
+        write "FileVault" $fileVault
+        write "MissingInfo" $missing
+        write "Bundles" $bundles
+    else
+        #todo lol
+        exit 1
+    fi
+    
+}
+
+function readEnv(){
+    local  val=$( grep "\[${2}\]" env -A1 | tail -1)
+    eval "${1}=\"${val}\""
+}
+
+function replaceEnv () {
+    local name=$1
+    local  value=$2
+    local temp=$(mktemp)
+    num=$(grep -n "\[${name}\]" env -a1 | tail -n1 |cut -f1 -d-)
+    if [ "${num}" == "" ]; then
+        addEnv $1 $2
+        return
+    fi
+    sed "${num}s/.*/${value}/" env > $temp
+    mv $temp ./env
+}
+
+function addEnv () {
+    local name=$1
+    local  value=$2
+    num=$(grep -n "\[${name}\]" env -a1 | tail -n1 |cut -f1 -d-)
+    if [ "${num}" != "" ]; then
+        echo "Key $name does exists. Can not add"
+        return
+    fi
+    local temp=$(mktemp)
+    cp env $temp
+    echo "[${name}]" >> $temp
+    echo "${value}" >> $temp
+    cp $temp env 
+}
+
+function removeEnv () {
+    local name=$1
+    local temp=$(mktemp)
+    local temp2=$(mktemp)
+    num=$(grep -n "\[${name}\]" env -a1 | tail -n1 |cut -f1 -d-)
+    cp env $temp
+    sed "${num}d" env > $temp
+    num=$(grep -n "\[${name}\]" env | tail -n1 |cut -f1 -d:)
+    sed "${num}d" ${temp} > ${temp2}
+    cat $temp2
+    cp $temp2 env
+}

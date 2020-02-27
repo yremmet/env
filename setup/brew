@@ -1,0 +1,27 @@
+function installLanguages(){
+    asdf plugin-add elixir 
+    asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
+    asdf plugin-add gradle https://github.com/rfrancis/asdf-gradle.git
+    asdf plugin-add golang 
+    asdf plugin-add maven
+
+    asdf install java $(asdf list-all java | grep azul-zulu-13)
+    asdf install java $(asdf list-all java | grep azul-zulu-11)
+    asfd global java $(asdf list-all java | grep azul-zulu-11)
+    lang golang
+    lang maven
+    lang erlang
+    lang elixir
+}
+
+function lang(){
+    asdf install $1 $(asdf list-all $1 | grep -v master | grep -v beta | tail -n 1)
+    asdf global $1 $(asdf list-all $1 | grep -v master  | grep -v beta | tail -n 1)
+}
+
+function installBundle() {
+    echo "Installing $1"
+    pushd ~/env/mac/bundles/$1
+    brew bundle
+    popd
+}
