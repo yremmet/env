@@ -1,0 +1,31 @@
+function installHackFont(){
+    mkdir /tmp/install
+    pushd /tmp/install
+        echo "Install Hack-Font"
+        wget https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
+        unzip Hack-v3.003-ttf.zip
+        cp ./ttf/* ~/Library/Fonts/
+    popd
+}
+
+function enableFileVault(){
+    if fdesetup status | grep $Q -E "FileVault is (On|Off, but will be enabled after the next restart)."; then
+        echo "Ok"
+    else
+        echo "Enabling full-disk encryption on next reboot:"
+        sudo fdesetup enable -user "$USER" | tee ~/Desktop/"FileVault Recovery Key.txt"
+        echo "Ok"
+    fi
+}
+
+function setSaneDefaults(){
+    echo "Configuring security settings:"
+    defaults write com.apple.Safari \
+        com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled \
+        -bool false
+    defaults write com.apple.Safari \
+        com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles \
+        -bool false
+    defaults write com.apple.screensaver askForPassword -int 1
+    defaults write com.apple.screensaver askForPasswordDelay -int 0
+}

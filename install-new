@@ -1,0 +1,49 @@
+#!/bin/sh
+. setup/environment
+
+
+if [ ! -f "./env" ]; then
+    echo "Env File does not exist. Name enviorment name."
+    read env_name
+    if [ ! -f "./envs/$env_name" ]; then
+        echo "No pre configured environment found. Create new config and run again"
+        exit 1
+    else
+        cp "./envs/$env_name" ./env
+    fi
+fi
+
+pushd $HOME
+    echo "Installing zsh"
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &
+    echo "Installing brew"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+popd
+
+echo "Copying zshrc"
+cp $HOME/env/.zshrc $HOME/
+
+readEnv type "TYPE"
+readEnv newHostname "HOSTNAME"
+if [ "$type" == "macOS" ]; then
+    . setup/brew
+    . setup/mac
+
+    readEnv bundles "BUNDLES"
+    for bundle in $bundles; do
+        installBundle $bundle
+    done
+    installHackFont
+    defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/env/mac/iterm" 
+    setSaneDefaults
+    sudo scutil --set HostName ${newHostname}
+
+fi
+
+
+
+
+
+# enable firewall, i nstall little snitch
+#sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+#sudo launchctl load /System/Library/LaunchDaemons/com.apple.alf.agent.plist 2>/dev/null
