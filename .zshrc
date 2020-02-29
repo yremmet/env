@@ -21,9 +21,9 @@ source ~/env/shell/index.sh
 #[ -f ~/.asdf/plugins/java/set-java-home.sh ] && source ~/.asdf/plugins/java/set-java-home.sh
 
 if [ -d "~/env/secrets/" ]; then
-for f in $(ls ~/env/secrets/); docker
- . $f
-done
+  for f in $(ls ~/env/secrets/); do
+  . $f
+  done
 fi
 
 eval "$(direnv hook zsh)"
