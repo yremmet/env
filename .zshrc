@@ -17,11 +17,13 @@ export DEV_PATH="~/DEV"
 export SB_DEV_PATH="${DEV_PATH}/osb"
 
 source ~/env/shell/index.sh 
-[ -f $(brew --prefix asdf)/asdf.sh ] && source $(brew --prefix asdf)/asdf.sh
-[ -f ~/.asdf/plugins/java/set-java-home.sh ] && source ~/.asdf/plugins/java/set-java-home.sh
+#[ -f $(brew --prefix asdf)/asdf.sh ] && source $(brew --prefix asdf)/asdf.sh
+#[ -f ~/.asdf/plugins/java/set-java-home.sh ] && source ~/.asdf/plugins/java/set-java-home.sh
 
+if [ -d "~/env/secrets/" ]; then
 for f in $(ls ~/env/secrets/); docker
  . $f
+done
 fi
 
 eval "$(direnv hook zsh)"

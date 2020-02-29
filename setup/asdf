@@ -22,7 +22,7 @@ function lang(){
 }
 
 
-function lang_Version(){
+function langVersion(){
     asdf plugin-add $1
     version=$(asdf list-all $1 | grep $2 | tail -n 1)
     asdf install $1 $version
