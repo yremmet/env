@@ -1,0 +1,98 @@
+#!/bin/sh
+. setup/environment
+function installLanguages(){
+    asdf plugin-add elixir 
+    asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
+    asdf plugin-add gradle https://github.com/rfrancis/asdf-gradle.git
+    asdf plugin-add golang 
+    asdf plugin-add maven
+
+    asdf install java $(asdf list-all java | grep azul-zulu-13)
+    asdf install java $(asdf list-all java | grep azul-zulu-11)
+    asfd global java $(asdf list-all java | grep azul-zulu-11)
+    lang golang
+    lang maven
+    lang erlang
+    lang elixir
+}
+
+function lang(){
+    asdf install $1 $(asdf list-all $1 | grep -v master | grep -v beta | tail -n 1)
+    asdf global $1 $(asdf list-all $1 | grep -v master  | grep -v beta | tail -n 1)
+}
+
+function installBundle() {
+    echo "Installing $1"
+    pushd ~/env/mac/bundles/$1
+    brew bundle
+    popd
+}
+
+
+if [ ! -f "./env" ]; then
+    echo "Env File does not exist. Name enviorment name."
+    read env_name
+    if [ ! -f "./envs/$env_name" ]; then
+        echo "No pre configured environment found. Create new config"
+        createEnvironment $env_name
+        saveEnironemnt $env_name
+    else
+        cp "./envs/$env_name" ./env
+    fi
+    updateEnvironment $env_name
+    exit 1
+fi
+
+pushd $HOME
+    echo "Installing zsh"
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &
+    echo "Installing brew"
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+popd
+
+
+mkdir /tmp/install
+pushd /tmp/install
+    echo "Install Hack-Font"
+    wget https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
+    unzip Hack-v3.003-ttf.zip
+    cp ./ttf/* ~/Library/Fonts/
+popd
+
+echo "Copying zshrc"
+cp $HOME/env/.zshrc $HOME/
+
+
+if [ $(uname) = "Darwin" ]; then
+    installBundle "Quickstart"
+    defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/env/mac/iterm"
+    installBundle "Quicklook"
+    installBundle "Essentials"
+    installLanguages
+    installBundle "Cloud"
+    installBundle "FunTools"
+else
+    echo "done"
+    ## do some apt-get or something
+fi
+
+logn "Configuring security settings:"
+defaults write com.apple.Safari \
+  com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled \
+  -bool false
+defaults write com.apple.Safari \
+  com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles \
+  -bool false
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+# enable firewall, i nstall little snitch
+#sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
+#sudo launchctl load /System/Library/LaunchDaemons/com.apple.alf.agent.plist 2>/dev/null
+echo "Checking full-disk encryption status:"
+if fdesetup status | grep $Q -E "FileVault is (On|Off, but will be enabled after the next restart)."; then
+  echo "Ok"
+else
+    echo "Enabling full-disk encryption on next reboot:"
+    sudo fdesetup enable -user "$USER" | tee ~/Desktop/"FileVault Recovery Key.txt"
+    echo "Ok"
+fi
