@@ -1,14 +1,17 @@
-function installHackFont(){
-    mkdir /tmp/install
-    pushd /tmp/install
-        echo "Install Hack-Font"
-        wget https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
-        unzip Hack-v3.003-ttf.zip
-        cp -n ./ttf/* /Library/Fonts/
-    popd
+installHackFont(){
+    if [ ! -f /Library/Fonts/Hack-Regular.ttf ]; then
+        mkdir /tmp/install
+        pushd /tmp/install
+            echo "Install Hack-Font"
+            
+            curl -L https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip -o fonts.zip
+            unzip fonts.zip
+            cp -n ./ttf/* /Library/Fonts/
+        popd
+    fi
 }
 
-function enableFileVault(){
+enableFileVault(){
     if fdesetup status | grep $Q -E "FileVault is (On|Off, but will be enabled after the next restart)."; then
         echo "Ok"
     else
@@ -18,7 +21,7 @@ function enableFileVault(){
     fi
 }
 
-function setupDock() {
+setupDock() {
     defaults write com.apple.Dock orientation -string left
     defaults write com.apple.dock static-only -bool TRUE
     defaults write com.apple.Dock autohide -bool TRUE
@@ -28,8 +31,10 @@ function setupDock() {
     killall Dock
 }
 
-function setSaneDefaults(){
-    echo 1 | sudo languagesetup # set language
+setSaneDefaults(){
+    set -x 
+    echo "Sane Defaults"
+    echo 1 | sudo languagesetup > /dev/null # set language
     echo "Configuring security settings:"
     defaults write com.apple.Safari \
         com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled \
@@ -41,7 +46,7 @@ function setSaneDefaults(){
     defaults write com.apple.screensaver askForPasswordDelay -int 0
 }
 
-function setupLoginItems(){
+setupLoginItems(){
     osascript -e 'tell application "System Events" to make login item at end with properties {path: /Applications/Alfred 4.app, hidden:false}'
     osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Magnet.app", hidden:false}' 
     osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Bartender 3.app", hidden:false}' 

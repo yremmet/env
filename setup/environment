@@ -1,10 +1,11 @@
-function unsettEnvEnv{
-    unset missing
-    unset fileVault
-    unset bundles
+unsettEnvEnv(){
+#    unset missing
+#    unset fileVault
+#    unset bundles
+echo "nothing"
 }
 
-function createEnvironment{
+createEnvironment(){
 
     local name=$1
     if [ $(uname) = "Darwin" ]; then
@@ -33,12 +34,12 @@ function createEnvironment{
     
 }
 
-function readEnv {
+readEnv() {
     local  val=$( grep "\[${2}\]" env -A1 | tail -1)
     eval "${1}=\"${val}\""
 }
 
-function replaceEnv {
+replaceEnv() {
     local name=$1
     local  value=$2
     local temp=$(mktemp)
@@ -51,7 +52,7 @@ function replaceEnv {
     mv $temp ./env
 }
 
-function addEnv {
+addEnv() {
     local name=$1
     local  value=$2
     num=$(grep -n "\[${name}\]" env -a1 | tail -n1 |cut -f1 -d-)
@@ -66,7 +67,7 @@ function addEnv {
     cp $temp env 
 }
 
-function removeEnv {
+removeEnv() {
     local name=$1
     local temp=$(mktemp)
     local temp2=$(mktemp)

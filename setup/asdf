@@ -1,20 +1,4 @@
-function installLanguages(){
-    asdf plugin-add elixir 
-    asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
-    asdf plugin-add gradle https://github.com/rfrancis/asdf-gradle.git
-    asdf plugin-add golang 
-    asdf plugin-add maven
-
-    asdf install java $(asdf list-all java | grep azul-zulu-13)
-    asdf install java $(asdf list-all java | grep azul-zulu-11)
-    asfd global java $(asdf list-all java | grep azul-zulu-11)
-    lang golang
-    lang maven
-    lang erlang
-    lang elixir
-}
-
-function lang(){
+lang(){
     asdf plugin-add $1
     version=$(asdf list-all $1 | grep -v master | grep -v beta | grep -v rc | tail -n 1)
     asdf install $1 $version
@@ -22,7 +6,7 @@ function lang(){
 }
 
 
-function langVersion(){
+langVersion(){
     asdf plugin-add $1
     version=$(asdf list-all $1 | grep $2 | tail -n 1)
     asdf install $1 $version

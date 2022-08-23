@@ -6,7 +6,7 @@ cask "ngrok"
 cask "iina"
 brew "aria2"
 brew "asciinema"
-brew "encfs"
+#brew "encfs"
 cask "latest"
 cask "cryptomator"
 

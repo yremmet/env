@@ -21,7 +21,7 @@ if [ "$type" == "ubuntu" ]; then
 fi
 
 pushd $HOME
-    if [ -d "~/.oh-my-zsh" ]; then
+    if [ ! -d "~/.oh-my-zsh" ]; then
         echo "Installing zsh"
         sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &
     fi
@@ -45,6 +45,7 @@ if [ "$type" == "macOS" ]; then
     readEnv asdf "ASDF"
     readEnv asdfversion "ASDF-VERSION"
     readEnv lockmsg "LOCKMESSAGE"
+    readEnv code "CODE"
     
     for bundle in $bundles; do
         echo "";
@@ -61,9 +62,13 @@ if [ "$type" == "macOS" ]; then
         langVersion "${asdfarr[i]}" "${asdfarr[i+1]}"
     done
 
+    for c in $code; do
+        code --install-extension $c
+    done
 
-    installHackFont
+    
     . setup/mac
+    installHackFont
     defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/env/mac/iterm" 
     setSaneDefaults
     setupDock
