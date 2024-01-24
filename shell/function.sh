@@ -1,3 +1,11 @@
+pathdir=$(dirname $0)
+
+if [ ! -f output.sh ]; then
+    curl --silent https://gist.github.com/yremmet/1a77ac70b1a24cb901e28233219c5663/raw -Lo output.sh
+fi
+. $pathdir/output.sh
+
+
 function code () {
     open $1 -a Visual\ Studio\ Code
 }
@@ -34,25 +42,6 @@ function get_website()
 	wget --limit-rate=200k --no-clobber --convert-links --random-wait -r -p -E -e robots=off -U mozilla $1 ; 
 }
 
-function rand(){
-    cat /dev/urandom | env LC_CTYPE=C tr -dc ${1:-'a-zA-Z0-9'} | fold -w ${2:-32} | head -n 1
-}
-
-function random_small(){
-    rand 'a-z0-9' $1
-}
-
-function rnd(){
-    rand "a-zA-Z0-9!@#$%^&*()_+?><~\`;'" $1
-}
-
-function id(){
-  for ((i=1;i<=${1:-"1"};i++)); 
-  do 
-    echo "$(random_small 8)-$(random_small 4)-$(random_small 4)-$(random_small 12)"
-  done
-}
-
 function wait(){
     if [[ $1 == "-n" ]]; then
         sleep="$2"
@@ -66,7 +55,45 @@ function wait(){
     array=${*}
 
     while true; do
-        eval ${array}
+        echo "Evaluating ${array} every ${sleep} seconds."
+        eval ${array} 
         sleep $sleep
+        clear;
     done
+    
+}
+
+
+function kib(){
+    pod_name="${USER}-tmp-iacbox"
+    pod_image="enat/iac_box"
+    echo "[INFO] Running pod '$pod_name' with image '$pod_image' and attaching onto it ..."
+    kubectl run $pod_name -it --image $pod_image --restart=Never  -- sh
+    
+    echo "[INFO] Unattached from pod and deleting it ..."
+    kubectl delete pod $pod_name
+}
+
+function kbb(){
+    pod_name="${USER}-tmp-busybox"
+    pod_image="busybox"
+    echo "[INFO] Running pod '$pod_name' with image '$pod_image' and attaching onto it ..."
+    kubectl run $pod_name -it --image $pod_image --restart=Never  -- sh
+    
+    echo "[INFO] Unattached from pod and deleting it ..."
+    kubectl delete pod $pod_name
+}
+
+function backup() {
+    echo "Backup Little Snitch"
+    sudo littlesnitch export-model > ~/env/mac/littlesnitch/ls.json
+    pushd ~/env/
+    git add ~/env/mac/littlesnitch/
+    git commit -m "cfg backup"
+    popd
+}
+
+function restore(){
+    echo "Restore Little Snitch Config"
+    sudo littlesnitch restore-model ~/env/mac/littlesnitch/ls.json
 }

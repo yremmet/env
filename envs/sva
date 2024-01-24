@@ -1,0 +1,19 @@
+[NAME]
+sva
+[TYPE]
+macOS
+[BUNDLES]
+Quickstart
+Essentials
+[ASDF]
+elixir golang erlang maven nodejs
+[ASDF-VERSION]
+java openjdk-17
+[HOSTNAME]
+yannic-macbook
+[CODE]
+eamodio.gitlens
+Grafana.vscode-jsonnet
+shd101wyy.markdown-preview-enhanced
+jebbs.plantuml
+ms-vscode-remote.remote-ssh

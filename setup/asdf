@@ -1,14 +1,17 @@
 lang(){
+    info "Installing latest version of $1"
     asdf plugin-add $1
-    version=$(asdf list-all $1 | grep -v master | grep -v beta | grep -v rc | tail -n 1)
-    asdf install $1 $version
-    asdf global $1 $version
+    asdf install $1 latest
+    asdf global $1 latest
+    ok "Done installing $1"
 }
 
-
 langVersion(){
+    info "Installing $1"
     asdf plugin-add $1
     version=$(asdf list-all $1 | grep $2 | tail -n 1)
+    info "Installing $version of $1"
     asdf install $1 $version
     asdf global $1 $version
+    ok "Done installing $1"
 }

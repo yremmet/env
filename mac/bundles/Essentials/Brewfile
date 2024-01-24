@@ -1,36 +1,30 @@
-tap "cloudfoundry/tap"
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "starkandwayne/cf"
-tap "minio/stable"
 
 brew "asdf"
 brew "base64"
 
-brew "docker"
+brew "podman"
 brew "exa"
 brew "git"
 brew "highlight"
 brew "httpie"
 brew "libtool"
-
 brew "wget"
-cask "syncthing"
-cask "spamsieve"
-cask "Slack"
-cask "bitbar"
-cask "chromium"
 
+cask "firefox"
 cask "keka"
 cask "gpg-suite"
 cask "arq"
-cask "wire"
 cask "bartender"
-cask "intellij-idea"
 cask "little-snitch"
-cask "resilio-sync"
 cask "oversight"
+cask "aldente"
+cask "iterm2"
+cask "1password"
+cask "alfred"
+brew "thefuck"
 
 mas "1Blocker", id: 1107421413
 mas "Magnet", id: 441258766

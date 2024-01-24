@@ -32,10 +32,9 @@ setupDock() {
 }
 
 setSaneDefaults(){
-    set -x 
-    echo "Sane Defaults"
+    info "Sane Defaults"
     echo 1 | sudo languagesetup > /dev/null # set language
-    echo "Configuring security settings:"
+    info "Configuring security settings:"
     defaults write com.apple.Safari \
         com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled \
         -bool false
@@ -47,9 +46,11 @@ setSaneDefaults(){
 }
 
 setupLoginItems(){
-    osascript -e 'tell application "System Events" to make login item at end with properties {path: /Applications/Alfred 4.app, hidden:false}'
+    osascript -e 'tell application "System Events" to make login item at end with properties {path: /Applications/Alfred 5.app, hidden:false}'
     osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Magnet.app", hidden:false}' 
-    osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Bartender 3.app", hidden:false}' 
+    osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Bartender 5.app", hidden:false}' 
     osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Syncthing.app", hidden:false}' 
-    osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Resilio Sync.app", hidden:false}' 
+    osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/AlDente.app", hidden:false}' 
+    osascript -e 'tell application "System Events" to make login item at end with properties {path:"/Applications/Hammerspoon.app", hidden:false}' 
+
 }

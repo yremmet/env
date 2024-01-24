@@ -1,43 +1,56 @@
 #!/bin/bash
 source setup/environment
 
+if [[ ! -f ~/env/shell/output.sh && $(find "~/env/shell/output.sh" -mtime +14 -print) ]]; then
+    curl --silent https://gist.github.com/yremmet/1a77ac70b1a24cb901e28233219c5663/raw -Lo ~/env/shell/output.sh
+fi
+. ~/env/shell/output.sh
 
+header Check Envionment
 if [ ! -f "./env" ]; then
-    echo "Env File does not exist. Name enviorment name."
+    
+    warn "Env File does not exist. Name environment."
     read env_name
     if [ ! -f "./envs/$env_name" ]; then
-        echo "No pre configured environment found. Create new config and run again"
+        fail "No pre configured environment found. Create new config and run again"
         exit 1
     else
         cp "./envs/$env_name" ./env
+        ok "Environment ${env_name} found"
     fi
 fi
 
+info "Reading Environment File"
 readEnv type "TYPE"
 readEnv newHostname "HOSTNAME"
+
 if [ "$type" == "ubuntu" ]; then
   . setup/ubuntu
   install
 fi
 
 pushd $HOME
-    if [ ! -d "~/.oh-my-zsh" ]; then
-        echo "Installing zsh"
-        sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &
+    if [ -d "~/.oh-my-zsh" ]; then
+        info "Installing zsh"
+        sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    else 
+        info "Oh My Zsh already installed"
     fi
 
-    brew > /dev/null 2> /dev/null
-    if [ "$?" != "1" ]; then
-        echo "Installing brew"
-        bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    if  [ ! -x "$(command -v brew)" ]; then
+        info "Installing brew"
+        bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    else 
+        info "Brew already installed"
     fi
 popd
 
-echo "Copying zshrc"
+info "Copying zshrc"
 cp $HOME/env/.zshrc $HOME/
 
 
 if [ "$type" == "macOS" ]; then
+    header "Install macOs"
     . setup/brew
     . setup/asdf
 
@@ -47,40 +60,54 @@ if [ "$type" == "macOS" ]; then
     readEnv lockmsg "LOCKMESSAGE"
     readEnv code "CODE"
     
+    if [ -d "~/.hammerspoon" ]; then
+        echo "Setup Hammerspoon"
+        ln -s /Users/yremmet/env/mac/hammerspoon .hammerspoon
+    fi
+    header2 "Brew"
     for bundle in $bundles; do
         echo "";
         installBundle $bundle
     done
 
+    header2 "Asdf"
     for lang in $asdf; do
+        echo "Installing ${lang}"
         lang $lang
         echo ""
     done
 
     asdfarr=($asdfversion)
+    
     for (( i=0; i<${#asdfarr[@]} ; i+=2 )) ; do
+        echo "Installing ${asdfarr[i]}"
         langVersion "${asdfarr[i]}" "${asdfarr[i+1]}"
     done
 
+    header2 "Code"
     for c in $code; do
         code --install-extension $c
     done
 
-    
+    header2 "Setting UP Mac Configs"
     . setup/mac
     installHackFont
     defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/env/mac/iterm" 
     setSaneDefaults
     setupDock
     setupLoginItems
-    sudo scutil --set HostName ${newHostname}
+    currHostname=$(scutil --get HostName)
+    if [ $currHostname != $newHostname ]; then
+        info "Update Hostname"
+        sudo scutil --set HostName ${newHostname}
+    fi
+    info "Update Lock Msg"
     sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "${lockmsg}"
-
 fi
 
 if [ "$type" == "ubuntu" ]; then
+    header "Setup Ubuntu"
     . setup/brew
-    
     . setup/asdf
 
     readEnv bundles "BUNDLES"
@@ -103,11 +130,3 @@ if [ "$type" == "ubuntu" ]; then
     done
 
 fi
-
-
-
-
-
-# enable firewall, i nstall little snitch
-#sudo defaults write /Library/Preferences/com.apple.alf globalstate -int 1
-#sudo launchctl load /System/Library/LaunchDaemons/com.apple.alf.agent.plist 2>/dev/null
