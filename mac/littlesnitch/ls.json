@@ -36,7 +36,7 @@
       "codeIdentifier" : "cc.arduino.Arduino",
       "type" : "trustedAnchor"
     },
-    "/Applications/Bartender 4.app/Contents/MacOS/Bartender 4" : {
+    "/Applications/Bartender 5.app/Contents/MacOS/Bartender 5" : {
       "authorIdentifier" : "8DD663WDX4",
       "codeIdentifier" : "com.surteesstudios.Bartender",
       "type" : "trustedAnchor"
@@ -44,6 +44,11 @@
     "/Applications/Company Portal.app/Contents/PlugIns/Mac SSO Extension.appex/Contents/MacOS/Mac SSO Extension" : {
       "authorIdentifier" : "UBF8T346G9",
       "codeIdentifier" : "com.microsoft.CompanyPortalMac.ssoextension",
+      "type" : "trustedAnchor"
+    },
+    "/Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper" : {
+      "authorIdentifier" : "UZEUFB4N53",
+      "codeIdentifier" : "com.jgraph.drawio.desktop.helper",
       "type" : "trustedAnchor"
     },
     "/Applications/draw.io.app/Contents/MacOS/draw.io" : {
@@ -71,9 +76,19 @@
       "codeIdentifier" : "pingsender",
       "type" : "trustedAnchor"
     },
+    "/Applications/Fleet.app/Contents/MacOS/Fleet" : {
+      "authorIdentifier" : "2ZEFAR8TH3",
+      "codeIdentifier" : "Fleet.app",
+      "type" : "trustedAnchor"
+    },
     "/Applications/Hammerspoon.app/Contents/MacOS/Hammerspoon" : {
       "authorIdentifier" : "VQCYSNZB89",
       "codeIdentifier" : "org.hammerspoon.Hammerspoon",
+      "type" : "trustedAnchor"
+    },
+    "/Applications/Heynote.app/Contents/MacOS/Heynote" : {
+      "authorIdentifier" : "VY5Y3H438S",
+      "codeIdentifier" : "com.heynote.app",
       "type" : "trustedAnchor"
     },
     "/Applications/IntelliJ IDEA CE.app/Contents/MacOS/idea" : {
@@ -151,11 +166,6 @@
       "codeIdentifier" : "com.microsoft.teams.TeamsUpdaterDaemon",
       "type" : "trustedAnchor"
     },
-    "/Applications/Microsoft Teams.app/Contents/MacOS/Teams" : {
-      "authorIdentifier" : "UBF8T346G9",
-      "codeIdentifier" : "com.microsoft.teams",
-      "type" : "trustedAnchor"
-    },
     "/Applications/Microsoft Word.app/Contents/MacOS/Microsoft Word" : {
       "authorIdentifier" : "UBF8T346G9",
       "codeIdentifier" : "com.microsoft.Word",
@@ -169,6 +179,16 @@
     "/Applications/MQTT Explorer.app/Contents/MacOS/MQTT Explorer" : {
       "authorIdentifier" : "CSMA55Q8Q5",
       "codeIdentifier" : "de.t7n.apps.mqtt-explorer",
+      "type" : "trustedAnchor"
+    },
+    "/Applications/Nextcloud.app/Contents/MacOS/Nextcloud" : {
+      "authorIdentifier" : "NKUJUXUJ3B",
+      "codeIdentifier" : "com.nextcloud.desktopclient",
+      "type" : "trustedAnchor"
+    },
+    "/Applications/Obsidian.app/Contents/MacOS/Obsidian" : {
+      "authorIdentifier" : "6JSW4SJWN9",
+      "codeIdentifier" : "md.obsidian",
       "type" : "trustedAnchor"
     },
     "/Applications/OneDrive.app/Contents/MacOS/OneDrive" : {
@@ -216,14 +236,13 @@
       "codeIdentifier" : "com.resilio.Sync",
       "type" : "trustedAnchor"
     },
+    "/Applications/Robo 3T.app/Contents/MacOS/Robo 3T" : {
+      "codeIdentifier" : "bf5218768c1a8d1bb3f9349bbb9fed7d2df092000cd28dcdbc8f3dfe27b5fc34",
+      "type" : "fileHash"
+    },
     "/Applications/Safari.app/Contents/MacOS/Safari" : {
       "codeIdentifier" : "com.apple.Safari",
       "type" : "anchorApple"
-    },
-    "/Applications/Signal.app/Contents/Frameworks/Signal Helper (Renderer).app/Contents/MacOS/Signal Helper (Renderer)" : {
-      "authorIdentifier" : "U68MSDN6DR",
-      "codeIdentifier" : "org.whispersystems.signal-desktop.helper.Renderer",
-      "type" : "trustedAnchor"
     },
     "/Applications/Signal.app/Contents/MacOS/Signal" : {
       "authorIdentifier" : "U68MSDN6DR",
@@ -250,9 +269,9 @@
       "codeIdentifier" : "io.tailscale.ipn.macos.network-extension",
       "type" : "trustedAnchor"
     },
-    "/Applications/Testcontainers Desktop.app/Contents/MacOS/testcontainers-desktop" : {
-      "authorIdentifier" : "33C47PTHN6",
-      "codeIdentifier" : "com.atomicjar.desktop",
+    "/Applications/UltiMaker Cura.app/Contents/MacOS/UltiMaker-Cura" : {
+      "authorIdentifier" : "V4B3JXRRQS",
+      "codeIdentifier" : "nl.ultimaker.cura_UltiMaker_Cura_5.6.0",
       "type" : "trustedAnchor"
     },
     "/Applications/Vinegar.app/Contents/PlugIns/Vinegar for Safari.appex/Contents/MacOS/Vinegar for Safari" : {
@@ -300,14 +319,6 @@
       "codeIdentifier" : "com.sentinelone.sentineld",
       "type" : "trustedAnchor"
     },
-    "/opt/homebrew/Cellar/helm/3.13.2/bin/helm" : {
-      "codeIdentifier" : "599466977d7841c8427190ead39af9ab9174c5f0122880ac062642d0e67d5ae8",
-      "type" : "fileHash"
-    },
-    "/opt/homebrew/Cellar/kubernetes-cli/1.28.4/bin/kubectl" : {
-      "codeIdentifier" : "a1838dbdd3959a3e8926531149392f5d71b1f38dd3cedc444cc3ad7389fcf39c",
-      "type" : "fileHash"
-    },
     "/opt/homebrew/Cellar/mas/1.8.6/bin/mas" : {
       "codeIdentifier" : "ef2bfa30316e3df62ff80cbb2312c4b85504a8a097f857da20b2cf5d6e130fff",
       "type" : "fileHash"
@@ -320,14 +331,6 @@
       "codeIdentifier" : "8eae8ccf39e48ebff8d55bc8b7353a3d1edef541a82900028b59ae3ca6ed43c1",
       "type" : "cdHash256"
     },
-    "/opt/homebrew/Cellar/podman/4.7.2/bin/podman-remote" : {
-      "codeIdentifier" : "98324971e7e5082fe071045afa1ea680aae0c3b618aea1ef4ae379ccff7a126f",
-      "type" : "fileHash"
-    },
-    "/opt/homebrew/Cellar/podman/4.7.2/libexec/podman/gvproxy" : {
-      "codeIdentifier" : "94f2469a5cd44ca975afb189bfe5ba85f89ad3b4ec8472f3b4e3b6a7bb103068",
-      "type" : "fileHash"
-    },
     "/opt/homebrew/Cellar/podman/4.8.3/bin/podman-remote" : {
       "codeIdentifier" : "4cd1e38aa08c9636b4f293da1d4f8fcc4cf7becc93f74a687eb2a65300c642f7",
       "type" : "fileHash"
@@ -336,25 +339,13 @@
       "codeIdentifier" : "6b3f0f5b630aa1ecd5799e45681da924dcf6406864a4eb4c906c539a01c90df0",
       "type" : "fileHash"
     },
-    "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python" : {
-      "codeIdentifier" : "a16fa1eb5df286389996f0b68f89cd64f1ec2cb6",
-      "type" : "cdHash256"
-    },
-    "/opt/homebrew/Cellar/python@3.12/3.12.0/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python" : {
-      "codeIdentifier" : "6b97c3c25eb6db6ebb8ed2ceb1cb7d1dda65ad5b",
-      "type" : "cdHash256"
-    },
-    "/opt/homebrew/Cellar/qemu/8.1.3/bin/qemu-system-aarch64" : {
-      "codeIdentifier" : "4c2133e5fccc2ff5347d91803f33bf673801411c",
+    "/opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64" : {
+      "codeIdentifier" : "c25cbb4e33c7a0c3ce056fedc3547bd91a565934",
       "type" : "cdHash256"
     },
     "/opt/homebrew/Cellar/vcluster/0.18.1/bin/vcluster" : {
       "codeIdentifier" : "152e740ba43146c0ba7e628da351e9b3ea42681786d4d77c956bc80404b5c063",
       "type" : "fileHash"
-    },
-    "/sbin/ping" : {
-      "codeIdentifier" : "com.apple.ping",
-      "type" : "anchorApple"
     },
     "/System/Applications/Calendar.app/Contents/MacOS/Calendar" : {
       "codeIdentifier" : "com.apple.iCal",
@@ -447,10 +438,6 @@
       "authorIdentifier" : "3M2L5SNZL8",
       "codeIdentifier" : "net.pulsesecure.PulseApplicationLauncher",
       "type" : "trustedAnchor"
-    },
-    "/usr/bin/curl" : {
-      "codeIdentifier" : "com.apple.curl",
-      "type" : "anchorApple"
     },
     "/usr/bin/sntp" : {
       "codeIdentifier" : "com.apple.sntp",
@@ -558,6 +545,7 @@
     "6P9PN587KS" : "Mac App Store",
     "7J4U792NQT" : "Vector Creations Limited",
     "7KT7ZWMCJT" : "ARDUINO SA",
+    "8DD663WDX4" : "Surtees Studios Limited",
     "43AQ936H96" : "Mozilla Corporation",
     "2953Z5SZSK" : "Resilio, Inc.",
     "84599RL58A" : "Paw Inc.",
@@ -574,7 +562,9 @@
     "U68MSDN6DR" : "Quiet Riddle Ventures LLC",
     "UBF8T346G9" : "Microsoft Corporation",
     "UZEUFB4N53" : "JGraph Ltd",
+    "V4B3JXRRQS" : "Ultimaker B.V.",
     "VQCYSNZB89" : "Chris Jones",
+    "VY5Y3H438S" : "Heylab AB",
     "W5364U7YZB" : "Mac App Store",
     "XZZXE9SED4" : "Running with Crayons Ltd"
   },
@@ -711,6 +701,17 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-30T09:10:02Z",
+      "direction" : "incoming",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728298602.368749\ndirection: incoming\norigin: alert\npeer: 52.123.136.215\nport: 50760\nprocessPath: /Applications/Microsoft Teams classic.app/Contents/MacOS/Teams\nprotocol: 17\nviaProcessPath: /Applications/Microsoft Teams classic.app/Contents/Frameworks/Microsoft Teams classic Helper (Renderer).app/Contents/MacOS/Microsoft Teams classic Helper (Renderer)\n",
+      "modificationDate" : "2024-01-30T09:10:02Z",
+      "origin" : "alert",
+      "process" : "/Applications/Microsoft Teams classic.app/Contents/MacOS/Teams",
+      "remote-addresses" : "52.123.136.215",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-24T08:57:25Z",
       "direction" : "incoming",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727779445.709805\ndirection: incoming\norigin: alert\npeer: 52.123.136.220\nport: 64639\nprocessPath: /Applications/Microsoft Teams classic.app/Contents/MacOS/Teams\nprotocol: 17\nviaProcessPath: /Applications/Microsoft Teams classic.app/Contents/Frameworks/Microsoft Teams classic Helper (Renderer).app/Contents/MacOS/Microsoft Teams classic Helper (Renderer)\n",
@@ -718,6 +719,17 @@
       "origin" : "alert",
       "process" : "/Applications/Microsoft Teams classic.app/Contents/MacOS/Teams",
       "remote-addresses" : "52.123.136.220",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:02:16Z",
+      "direction" : "incoming",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728226136.358269\ndirection: incoming\norigin: alert\npeer: 52.123.144.106\nport: 50760\nprocessPath: /Applications/Microsoft Teams classic.app/Contents/MacOS/Teams\nprotocol: 17\nviaProcessPath: /Applications/Microsoft Teams classic.app/Contents/Frameworks/Microsoft Teams classic Helper (Renderer).app/Contents/MacOS/Microsoft Teams classic Helper (Renderer)\n",
+      "modificationDate" : "2024-01-29T13:02:16Z",
+      "origin" : "alert",
+      "process" : "/Applications/Microsoft Teams classic.app/Contents/MacOS/Teams",
+      "remote-addresses" : "52.123.144.106",
       "uid" : 501
     },
     {
@@ -1360,6 +1372,28 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T13:01:04Z",
+      "direction" : "incoming",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728226064.926375\ndirection: incoming\norigin: alert\npeer: 2003:e7:1727:a600:2040:c393:93d7:1def\nport: 56092\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
+      "modificationDate" : "2024-01-29T13:01:04Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "remote-addresses" : "2003:e7:1727:a600:2040:c393:93d7:1def",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-25T08:01:14Z",
+      "direction" : "incoming",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727862474.391338\ndirection: incoming\norigin: alert\npeer: 2003:e7:1727:a600:8cf1:6b8b:e89c:ab5a\nport: 54931\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
+      "modificationDate" : "2024-01-25T08:01:14Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "remote-addresses" : "2003:e7:1727:a600:8cf1:6b8b:e89c:ab5a",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-23T07:57:10Z",
       "direction" : "incoming",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727689430.460116\ndirection: incoming\norigin: alert\npeer: 2003:e7:1727:a600:9090:ba50:806d:541\nport: 51110\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
@@ -1400,6 +1434,17 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "remote-addresses" : "17.252.28.251",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T13:38:28Z",
+      "direction" : "incoming",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796308.926084\ndirection: incoming\norigin: alert\npeer: 17.252.76.167\nport: 16393\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:38:28Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-addresses" : "17.252.76.167",
       "uid" : 501
     },
     {
@@ -1503,6 +1548,17 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-24T13:41:04Z",
+      "direction" : "incoming",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796464.725229\ndirection: incoming\norigin: alert\npeer: 2a01:599:91a:608c:a136:b691:c32b:6490\nport: 16393\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:41:04Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-addresses" : "2a01:599:91a:608c:a136:b691:c32b:6490",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-17T13:42:33Z",
       "direction" : "incoming",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727191753.914596\ndirection: incoming\norigin: alert\npeer: 2a01:599:920:617b:4866:6257:bc98:ed8e\nport: 16393\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
@@ -1543,6 +1599,17 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "remote-addresses" : "2a01:b740:a42:205::1b",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T13:38:16Z",
+      "direction" : "incoming",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796296.030920\ndirection: incoming\norigin: alert\npeer: 2a01:b740:a42:503::7\nport: 16393\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:38:16Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-addresses" : "2a01:b740:a42:503::7",
       "uid" : 501
     },
     {
@@ -1975,6 +2042,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-24T13:18:35Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727795115.576560\ndirection: outgoing\norigin: alert\npeer: www.macbartender.com\nport: 443\nprocessPath: /Applications/Bartender 5.app/Contents/MacOS/Bartender 5\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:18:35Z",
+      "origin" : "alert",
+      "process" : "/Applications/Bartender 5.app/Contents/MacOS/Bartender 5",
+      "remote-domains" : "macbartender.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-11-16T10:42:02Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 721824122.691089\ndirection: outgoing\norigin: alert\npeer: login.microsoft.com\nport: 443\nprocessPath: /Applications/Company Portal.app/Contents/PlugIns/Mac SSO Extension.appex/Contents/MacOS/Mac SSO Extension\nprotocol: 6\n",
       "modificationDate" : "2023-11-16T10:42:02Z",
@@ -2175,6 +2252,36 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T14:00:42Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728229642.060810\ndirection: outgoing\norigin: alert\npeer: github.com\nport: 443\nprocessPath: /Applications/Fleet.app/Contents/MacOS/Fleet\nprotocol: 6\nviaProcessPath: /usr/bin/curl\n",
+      "modificationDate" : "2024-01-29T14:00:42Z",
+      "origin" : "alert",
+      "process" : "/Applications/Fleet.app/Contents/MacOS/Fleet",
+      "remote-domains" : "github.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T14:00:42Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728229642.865616\ndirection: outgoing\norigin: alert\npeer: gist.githubusercontent.com\nport: 443\nprocessPath: /Applications/Fleet.app/Contents/MacOS/Fleet\nprotocol: 6\nviaProcessPath: /usr/bin/curl\n",
+      "modificationDate" : "2024-01-29T14:00:42Z",
+      "origin" : "alert",
+      "process" : "/Applications/Fleet.app/Contents/MacOS/Fleet",
+      "remote-domains" : "githubusercontent.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:22:16Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728209336.900022\ndirection: outgoing\norigin: alert\npeer: resources.jetbrains.com\nport: 443\nprocessPath: /Applications/Fleet.app/Contents/MacOS/Fleet\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T08:22:16Z",
+      "origin" : "alert",
+      "process" : "/Applications/Fleet.app/Contents/MacOS/Fleet",
+      "remote-domains" : "jetbrains.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-11-09T13:23:41Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 721229021.761538\ndirection: outgoing\norigin: alert\npeer: raw.githubusercontent.com\nport: 443\nprocessPath: /Applications/Hammerspoon.app/Contents/MacOS/Hammerspoon\nprotocol: 6\n",
       "modificationDate" : "2023-11-09T13:23:41Z",
@@ -2201,6 +2308,97 @@
       "origin" : "alert",
       "process" : "/Applications/Hammerspoon.app/Contents/MacOS/Hammerspoon",
       "remote-domains" : "yerkee.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:58:50Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211530.415312\ndirection: outgoing\norigin: alert\npeer: 1.0.0.1\nport: 53\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 17\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "modificationDate" : "2024-01-29T08:58:50Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-addresses" : "1.0.0.1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:58:48Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211528.696240\ndirection: outgoing\norigin: alert\npeer: 1.1.1.1\nport: 53\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 17\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "modificationDate" : "2024-01-29T08:58:48Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-addresses" : "1.1.1.1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-30T09:38:36Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728300316.941406\ndirection: outgoing\norigin: alert\npeer: 2003:e7:171a:a300::1\nport: 53\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 17\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "modificationDate" : "2024-01-30T09:38:36Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-addresses" : "2003:e7:171a:a300::1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:58:47Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211527.244219\ndirection: outgoing\norigin: alert\npeer: 2003:e7:1727:a600::1\nport: 53\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 17\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "modificationDate" : "2024-01-29T08:58:47Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-addresses" : "2003:e7:1727:a600::1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:24:51Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728209491.328721\ndirection: outgoing\norigin: alert\npeer: chrome.cloudflare-dns.com\nport: 443\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 6\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "modificationDate" : "2024-01-29T08:24:51Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-domains" : "cloudflare-dns.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:58:57Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211537.686783\ndirection: outgoing\norigin: alert\npeer: github.com\nport: 443\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 6\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "modificationDate" : "2024-01-29T08:58:57Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-domains" : "github.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:58:53Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211533.119377\ndirection: outgoing\norigin: alert\npeer: heyman.github.io\nport: 443\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 6\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "modificationDate" : "2024-01-29T08:58:53Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-domains" : "github.io",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:59:01Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211541.368193\ndirection: outgoing\norigin: alert\npeer: gist.githubusercontent.com\nport: 443\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 6\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "modificationDate" : "2024-01-29T08:59:01Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-domains" : "githubusercontent.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-30T09:27:03Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728299623.147227\ndirection: outgoing\norigin: alert\npeer: currencies.heynote.com\nport: 443\nprocessPath: /Applications/Heynote.app/Contents/MacOS/Heynote\nprotocol: 6\nviaProcessPath: /Applications/Heynote.app/Contents/Frameworks/Heynote Helper.app/Contents/MacOS/Heynote Helper\n",
+      "lifetime" : "untilQuit",
+      "modificationDate" : "2024-01-30T09:27:03Z",
+      "origin" : "alert",
+      "process" : "/Applications/Heynote.app/Contents/MacOS/Heynote",
+      "remote-domains" : "heynote.com",
       "uid" : 501
     },
     {
@@ -2800,18 +2998,6 @@
       "modificationDate" : "2023-12-04T09:07:40Z",
       "origin" : "alert",
       "process" : "/Applications/Microsoft Teams (work preview).app/Contents/MacOS/MSTeams",
-      "remote" : "any",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-01T09:59:57Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723117597.254965\ndirection: outgoing\norigin: alert\npeer: 52.112.238.177\nport: 443\nprocessPath: /Applications/Microsoft Teams (work preview).app/Contents/MacOS/MSTeams\nprotocol: 6\nviaProcessPath: /Applications/Microsoft Teams (work preview).app/Contents/Helpers/Microsoft Teams WebView.app/Contents/Frameworks/Microsoft Edge Framework.framework/Versions/116.0.1938.69/Helpers/Microsoft Teams WebView Helper.app/Contents/MacOS/Microsoft Teams WebView Helper\n",
-      "modificationDate" : "2023-12-01T09:59:57Z",
-      "origin" : "alert",
-      "ports" : "443",
-      "process" : "/Applications/Microsoft Teams (work preview).app/Contents/MacOS/MSTeams",
-      "protocol" : "tcp",
       "remote" : "any",
       "uid" : 501
     },
@@ -6345,6 +6531,86 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T13:28:42Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728227722.417662\ndirection: outgoing\norigin: alert\npeer: updates.nextcloud.org\nport: 443\nprocessPath: /Applications/Nextcloud.app/Contents/MacOS/Nextcloud\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T13:28:42Z",
+      "origin" : "alert",
+      "process" : "/Applications/Nextcloud.app/Contents/MacOS/Nextcloud",
+      "remote-domains" : "nextcloud.org",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:50:45Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728229045.700815\ndirection: outgoing\norigin: alert\npeer: nextcloud.yannic.codes\nport: 443\nprocessPath: /Applications/Nextcloud.app/Contents/MacOS/Nextcloud\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T13:50:45Z",
+      "origin" : "alert",
+      "process" : "/Applications/Nextcloud.app/Contents/MacOS/Nextcloud",
+      "remote-domains" : "yannic.codes",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:10:45Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728226645.153855\ndirection: outgoing\norigin: alert\npeer: 1.0.0.1\nport: 53\nprocessPath: /Applications/Obsidian.app/Contents/MacOS/Obsidian\nprotocol: 17\nviaProcessPath: /Applications/Obsidian.app/Contents/Frameworks/Obsidian Helper.app/Contents/MacOS/Obsidian Helper\n",
+      "modificationDate" : "2024-01-29T13:10:45Z",
+      "origin" : "alert",
+      "process" : "/Applications/Obsidian.app/Contents/MacOS/Obsidian",
+      "remote-addresses" : "1.0.0.1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:10:43Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728226643.752094\ndirection: outgoing\norigin: alert\npeer: 1.1.1.1\nport: 53\nprocessPath: /Applications/Obsidian.app/Contents/MacOS/Obsidian\nprotocol: 17\nviaProcessPath: /Applications/Obsidian.app/Contents/Frameworks/Obsidian Helper.app/Contents/MacOS/Obsidian Helper\n",
+      "modificationDate" : "2024-01-29T13:10:43Z",
+      "origin" : "alert",
+      "process" : "/Applications/Obsidian.app/Contents/MacOS/Obsidian",
+      "remote-addresses" : "1.1.1.1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:10:42Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728226642.462428\ndirection: outgoing\norigin: alert\npeer: 2003:e7:1727:a600::1\nport: 53\nprocessPath: /Applications/Obsidian.app/Contents/MacOS/Obsidian\nprotocol: 17\nviaProcessPath: /Applications/Obsidian.app/Contents/Frameworks/Obsidian Helper.app/Contents/MacOS/Obsidian Helper\n",
+      "modificationDate" : "2024-01-29T13:10:42Z",
+      "origin" : "alert",
+      "process" : "/Applications/Obsidian.app/Contents/MacOS/Obsidian",
+      "remote-addresses" : "2003:e7:1727:a600::1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:10:48Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728226648.416375\ndirection: outgoing\norigin: alert\npeer: chrome.cloudflare-dns.com\nport: 443\nprocessPath: /Applications/Obsidian.app/Contents/MacOS/Obsidian\nprotocol: 6\nviaProcessPath: /Applications/Obsidian.app/Contents/Frameworks/Obsidian Helper.app/Contents/MacOS/Obsidian Helper\n",
+      "modificationDate" : "2024-01-29T13:10:48Z",
+      "origin" : "alert",
+      "process" : "/Applications/Obsidian.app/Contents/MacOS/Obsidian",
+      "remote-domains" : "cloudflare-dns.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:10:47Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728226647.541584\ndirection: outgoing\norigin: alert\npeer: raw.githubusercontent.com\nport: 443\nprocessPath: /Applications/Obsidian.app/Contents/MacOS/Obsidian\nprotocol: 6\nviaProcessPath: /Applications/Obsidian.app/Contents/Frameworks/Obsidian Helper.app/Contents/MacOS/Obsidian Helper\n",
+      "modificationDate" : "2024-01-29T13:10:47Z",
+      "origin" : "alert",
+      "process" : "/Applications/Obsidian.app/Contents/MacOS/Obsidian",
+      "remote-domains" : "githubusercontent.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:10:46Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728226646.345386\ndirection: outgoing\norigin: alert\npeer: releases.obsidian.md\nport: 443\nprocessPath: /Applications/Obsidian.app/Contents/MacOS/Obsidian\nprotocol: 6\nviaProcessPath: /Applications/Obsidian.app/Contents/Frameworks/Obsidian Helper.app/Contents/MacOS/Obsidian Helper\n",
+      "modificationDate" : "2024-01-29T13:10:46Z",
+      "origin" : "alert",
+      "process" : "/Applications/Obsidian.app/Contents/MacOS/Obsidian",
+      "remote-domains" : "obsidian.md",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-11-14T07:31:06Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 721639866.398319\ndirection: outgoing\norigin: alert\npeer: in.appcenter.ms\nport: 443\nprocessPath: /Applications/OneDrive.app/Contents/MacOS/OneDrive\nprotocol: 6\n",
       "modificationDate" : "2023-11-14T07:31:06Z",
@@ -6675,6 +6941,36 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T14:52:13Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728232733.085204\ndirection: outgoing\norigin: alert\npeer: updates.3t.io\nport: 443\nprocessPath: /Applications/Robo 3T.app/Contents/MacOS/Robo 3T\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T14:52:13Z",
+      "origin" : "alert",
+      "process" : "/Applications/Robo 3T.app/Contents/MacOS/Robo 3T",
+      "remote-domains" : "3t.io",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T14:51:43Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728232703.123856\ndirection: outgoing\norigin: alert\npeer: d1mlwhj74m4qx2.cloudfront.net\nport: 80\nprocessPath: /Applications/Robo 3T.app/Contents/MacOS/Robo 3T\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T14:51:43Z",
+      "origin" : "alert",
+      "process" : "/Applications/Robo 3T.app/Contents/MacOS/Robo 3T",
+      "remote-domains" : "d1mlwhj74m4qx2.cloudfront.net",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T14:51:44Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728232704.848952\ndirection: outgoing\norigin: alert\npeer: a1988.dscg1.akamai.net\nport: 443\nprocessPath: /Applications/Robo 3T.app/Contents/MacOS/Robo 3T\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T14:51:44Z",
+      "origin" : "alert",
+      "process" : "/Applications/Robo 3T.app/Contents/MacOS/Robo 3T",
+      "remote-domains" : "dscg1.akamai.net",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-11-08T19:11:43Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 721163503.192079\ndirection: outgoing\norigin: alert\npeer: bolt.dropbox.com\nport: 443\nprocessPath: /Applications/Safari.app/Contents/MacOS/Safari\nprotocol: 6\nviaProcessPath: /System/Volumes/Preboot/Cryptexes/Incoming/OS/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking\n",
       "modificationDate" : "2023-11-08T19:11:43Z",
@@ -6711,6 +7007,16 @@
       "origin" : "alert",
       "process" : "/Applications/Studio 3T.app/Contents/MacOS/JavaApplicationStub",
       "remote-domains" : "3t.io",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T14:55:31Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728232931.018501\ndirection: outgoing\norigin: alert\npeer: i.vimeocdn.com\nport: 443\nprocessPath: /Applications/Studio 3T.app/Contents/MacOS/JavaApplicationStub\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T14:55:31Z",
+      "origin" : "alert",
+      "process" : "/Applications/Studio 3T.app/Contents/MacOS/JavaApplicationStub",
+      "remote-domains" : "i.vimeocdn.com",
       "uid" : 501
     },
     {
@@ -6794,6 +7100,26 @@
       "origin" : "alert",
       "process" : "/Applications/Tailscale.app/Contents/PlugIns/IPNExtension.appex/Contents/MacOS/IPNExtension",
       "remote" : "any",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:14:27Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728208867.616349\ndirection: outgoing\norigin: alert\npeer: storage.googleapis.com\nport: 443\nprocessPath: /Applications/UltiMaker Cura.app/Contents/MacOS/UltiMaker-Cura\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T08:14:27Z",
+      "origin" : "alert",
+      "process" : "/Applications/UltiMaker Cura.app/Contents/MacOS/UltiMaker-Cura",
+      "remote-domains" : "googleapis.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:14:17Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728208857.827957\ndirection: outgoing\norigin: alert\npeer: api.ultimaker.com\nport: 443\nprocessPath: /Applications/UltiMaker Cura.app/Contents/MacOS/UltiMaker-Cura\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T08:14:17Z",
+      "origin" : "alert",
+      "process" : "/Applications/UltiMaker Cura.app/Contents/MacOS/UltiMaker-Cura",
+      "remote-domains" : "ultimaker.com",
       "uid" : 501
     },
     {
@@ -6921,6 +7247,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T10:47:55Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728218075.819940\ndirection: outgoing\norigin: alert\npeer: 20.42.65.88\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-29T10:47:55Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "20.42.65.88",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-24T07:12:35Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727773155.536754\ndirection: outgoing\norigin: alert\npeer: 20.42.65.89\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
       "modificationDate" : "2024-01-24T07:12:35Z",
@@ -7004,6 +7340,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-25T08:01:09Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727862469.943017\ndirection: outgoing\norigin: alert\npeer: 20.189.173.1\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-25T08:01:09Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "20.189.173.1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-24T07:12:47Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727773167.025874\ndirection: outgoing\norigin: alert\npeer: 20.189.173.2\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
       "modificationDate" : "2024-01-24T07:12:47Z",
@@ -7030,6 +7376,16 @@
       "origin" : "alert",
       "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
       "remote-addresses" : "20.189.173.4",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T13:48:46Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796926.504399\ndirection: outgoing\norigin: alert\npeer: 20.189.173.6\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-24T13:48:46Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "20.189.173.6",
       "uid" : 501
     },
     {
@@ -7117,6 +7473,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-25T08:01:15Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727862475.992449\ndirection: outgoing\norigin: alert\npeer: 40.74.98.194\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-25T08:01:15Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "40.74.98.194",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-12-06T12:01:38Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 723556898.070523\ndirection: outgoing\norigin: alert\npeer: 40.79.141.152\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
       "modificationDate" : "2023-12-06T12:01:38Z",
@@ -7157,6 +7523,46 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T10:32:32Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728217152.532502\ndirection: outgoing\norigin: alert\npeer: 51.105.71.137\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-29T10:32:32Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "51.105.71.137",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T09:58:50Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728215130.071165\ndirection: outgoing\norigin: alert\npeer: 51.116.246.106\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-29T09:58:50Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "51.116.246.106",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T13:58:50Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728229530.428526\ndirection: outgoing\norigin: alert\npeer: 51.132.193.104\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-29T13:58:50Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "51.132.193.104",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T10:23:48Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728216628.399162\ndirection: outgoing\norigin: alert\npeer: 52.168.112.66\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-29T10:23:48Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "52.168.112.66",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-24T07:12:46Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727773166.225911\ndirection: outgoing\norigin: alert\npeer: 52.168.112.67\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
       "modificationDate" : "2024-01-24T07:12:46Z",
@@ -7183,6 +7589,16 @@
       "origin" : "alert",
       "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
       "remote-addresses" : "52.168.117.170",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T10:58:49Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728218729.223334\ndirection: outgoing\norigin: alert\npeer: 52.182.141.63\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-29T10:58:49Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "52.182.141.63",
       "uid" : 501
     },
     {
@@ -7267,6 +7683,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-24T12:45:59Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727793159.866464\ndirection: outgoing\norigin: alert\npeer: 104.208.16.90\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-24T12:45:59Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "104.208.16.90",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-23T07:26:10Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727687570.709238\ndirection: outgoing\norigin: alert\npeer: 104.208.16.91\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
       "modificationDate" : "2024-01-23T07:26:10Z",
@@ -7326,6 +7752,16 @@
       "origin" : "alert",
       "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
       "remote-addresses" : "2003:e7:1715:b700::1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-30T09:38:36Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728300316.156110\ndirection: outgoing\norigin: alert\npeer: 2003:e7:171a:a300::1\nport: 53\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 17\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
+      "modificationDate" : "2024-01-30T09:38:36Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-addresses" : "2003:e7:171a:a300::1",
       "uid" : 501
     },
     {
@@ -7453,6 +7889,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T08:58:59Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211539.948150\ndirection: outgoing\norigin: alert\npeer: dualstack.af634586581c44384aaf83a966b6536a-1727067205.us-east-1.elb.amazonaws.com\nport: 4318\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)\n",
+      "modificationDate" : "2024-01-29T08:58:59Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-domains" : "elb.amazonaws.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-11-14T15:04:04Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 721667044.424636\ndirection: outgoing\norigin: alert\npeer: default.exp-tas.com\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper\n",
       "modificationDate" : "2023-11-14T15:04:04Z",
@@ -7469,6 +7915,16 @@
       "origin" : "alert",
       "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
       "remote-domains" : "github.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-29T08:58:51Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211531.935291\ndirection: outgoing\norigin: alert\npeer: gist.githubusercontent.com\nport: 443\nprocessPath: /Applications/Visual Studio Code.app/Contents/MacOS/Electron\nprotocol: 6\nviaProcessPath: /usr/bin/curl\n",
+      "modificationDate" : "2024-01-29T08:58:51Z",
+      "origin" : "alert",
+      "process" : "/Applications/Visual Studio Code.app/Contents/MacOS/Electron",
+      "remote-domains" : "githubusercontent.com",
       "uid" : 501
     },
     {
@@ -7583,6 +8039,26 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T08:58:44Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728211524.596246\ndirection: outgoing\norigin: alert\npeer: 1.0.0.1\nport: 53\nprocessPath: /Applications/draw.io.app/Contents/MacOS/draw.io\nprotocol: 17\nviaProcessPath: /Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper\n",
+      "modificationDate" : "2024-01-29T08:58:44Z",
+      "origin" : "alert",
+      "process" : "/Applications/draw.io.app/Contents/MacOS/draw.io",
+      "remote-addresses" : "1.0.0.1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T15:34:31Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727803271.219242\ndirection: outgoing\norigin: alert\npeer: 1.1.1.1\nport: 53\nprocessPath: /Applications/draw.io.app/Contents/MacOS/draw.io\nprotocol: 17\nviaProcessPath: /Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper\n",
+      "modificationDate" : "2024-01-24T15:34:31Z",
+      "origin" : "alert",
+      "process" : "/Applications/draw.io.app/Contents/MacOS/draw.io",
+      "remote-addresses" : "1.1.1.1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-09T09:36:44Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 726485804.531535\ndirection: outgoing\norigin: alert\npeer: 104.131.67.145\nport: 443\nprocessPath: /Applications/draw.io.app/Contents/MacOS/draw.io\nprotocol: 6\nviaProcessPath: /Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper\n",
       "modificationDate" : "2024-01-09T09:36:44Z",
@@ -7623,6 +8099,39 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-30T09:47:40Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728300860.413126\ndirection: outgoing\norigin: alert\npeer: 2003:e7:171a:a300::1\nport: 53\nprocessPath: /Applications/draw.io.app/Contents/MacOS/draw.io\nprotocol: 17\nviaProcessPath: /Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper\n",
+      "modificationDate" : "2024-01-30T09:47:40Z",
+      "origin" : "alert",
+      "process" : "/Applications/draw.io.app/Contents/MacOS/draw.io",
+      "remote-addresses" : "2003:e7:171a:a300::1",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T15:34:28Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727803268.422073\ndirection: outgoing\norigin: alert\npeer: 2003:e7:1727:a600::1\nport: 53\nprocessPath: /Applications/draw.io.app/Contents/MacOS/draw.io\nprotocol: 17\nviaProcessPath: /Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper\n",
+      "modificationDate" : "2024-01-24T15:34:28Z",
+      "origin" : "alert",
+      "process" : "/Applications/draw.io.app/Contents/MacOS/draw.io",
+      "remote-addresses" : "2003:e7:1727:a600::1",
+      "uid" : 501
+    },
+    {
+      "action" : "suggestion",
+      "approved" : false,
+      "creationDate" : "2024-01-29T08:58:30Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 728211510.179600\ndirection: outgoing\norigin: automatic login\npeer: 2003:e7:1727:a600::1\nport: 0\nprocessPath: /Applications/draw.io.app/Contents/MacOS/draw.io\nprotocol: 17\nviaProcessPath: /Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper\n",
+      "modificationDate" : "2024-01-29T08:58:30Z",
+      "origin" : "preLogin",
+      "process" : "/Applications/draw.io.app/Contents/MacOS/draw.io",
+      "protocol" : "udp",
+      "remote-addresses" : "2003:e7:1727:a600::1",
+      "uid" : 501,
+      "via" : "/Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper"
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-09T09:36:33Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 726485793.334200\ndirection: outgoing\norigin: alert\npeer: 2606:4700:3038::6815:eac4\nport: 443\nprocessPath: /Applications/draw.io.app/Contents/MacOS/draw.io\nprotocol: 17\nviaProcessPath: /Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper\n",
       "modificationDate" : "2024-01-09T09:36:33Z",
@@ -7639,6 +8148,16 @@
       "origin" : "alert",
       "process" : "/Applications/draw.io.app/Contents/MacOS/draw.io",
       "remote-domains" : "cloudflare-dns.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T15:34:33Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727803273.827680\ndirection: outgoing\norigin: alert\npeer: www.drupal.org\nport: 443\nprocessPath: /Applications/draw.io.app/Contents/MacOS/draw.io\nprotocol: 6\nviaProcessPath: /Applications/draw.io.app/Contents/Frameworks/draw.io Helper.app/Contents/MacOS/draw.io Helper\n",
+      "modificationDate" : "2024-01-24T15:34:33Z",
+      "origin" : "alert",
+      "process" : "/Applications/draw.io.app/Contents/MacOS/draw.io",
+      "remote-domains" : "drupal.org",
       "uid" : 501
     },
     {
@@ -7691,28 +8210,6 @@
       "remote" : "any",
       "uid" : 501,
       "via" : "/opt/homebrew/Cellar/minikube/1.32.0/bin/minikube"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-01T08:48:12Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723113292.341943\ndirection: outgoing\norigin: alert\npeer: shavar.prod.mozaws.net\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /Applications/Firefox.app/Contents/MacOS/firefox\n",
-      "modificationDate" : "2023-12-01T08:48:12Z",
-      "origin" : "alert",
-      "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
-      "remote" : "any",
-      "uid" : 501,
-      "via" : "/Applications/Firefox.app/Contents/MacOS/firefox"
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-04T10:22:35Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723369700.000000\ndirection: outgoing\norigin: network monitor\npeer: github.com\nport: 0\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 0\nviaProcessPath: /Library/Developer/CommandLineTools/usr/libexec/git-core/git-remote-http\n",
-      "modificationDate" : "2023-12-04T10:22:35Z",
-      "origin" : "monitor",
-      "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
-      "remote" : "any",
-      "uid" : 501,
-      "via" : "/Library/Developer/CommandLineTools/usr/libexec/git-core/git-remote-http"
     },
     {
       "action" : "allow",
@@ -7770,6 +8267,30 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-24T12:45:46Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727793146.299633\ndirection: outgoing\norigin: alert\npeer: 1.1.1.1\nport: 53\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 17\nviaProcessPath: /opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64\n",
+      "modificationDate" : "2024-01-24T12:45:46Z",
+      "origin" : "alert",
+      "ports" : "53",
+      "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
+      "protocol" : "udp",
+      "remote" : "any",
+      "uid" : 501,
+      "via" : "/opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T12:45:36Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727793136.243563\ndirection: outgoing\norigin: alert\npeer: 224.0.0.252\nport: 5355\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 17\nviaProcessPath: /opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64\n",
+      "modificationDate" : "2024-01-24T12:45:36Z",
+      "origin" : "alert",
+      "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
+      "remote-addresses" : "224.0.0.252",
+      "uid" : 501,
+      "via" : "/opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64"
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-23T13:22:33Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727708953.203285\ndirection: outgoing\norigin: alert\npeer: itunes.apple.com\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /opt/homebrew/Cellar/mas/1.8.6/bin/mas\n",
       "modificationDate" : "2024-01-23T13:22:33Z",
@@ -7778,6 +8299,28 @@
       "remote-domains" : "apple.com",
       "uid" : 501,
       "via" : "/opt/homebrew/Cellar/mas/1.8.6/bin/mas"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T12:47:01Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727793221.293267\ndirection: outgoing\norigin: alert\npeer: production.cloudflare.docker.com\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64\n",
+      "modificationDate" : "2024-01-24T12:47:01Z",
+      "origin" : "alert",
+      "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
+      "remote-domains" : "docker.com",
+      "uid" : 501,
+      "via" : "/opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T12:46:58Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727793218.251324\ndirection: outgoing\norigin: alert\npeer: registry-1.docker.io\nport: 443\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64\n",
+      "modificationDate" : "2024-01-24T12:46:58Z",
+      "origin" : "alert",
+      "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
+      "remote-domains" : "docker.io",
+      "uid" : 501,
+      "via" : "/opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64"
     },
     {
       "action" : "allow",
@@ -7792,6 +8335,17 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-24T12:46:02Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727793162.821658\ndirection: outgoing\norigin: alert\npeer: time3.google.com\nport: 123\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 17\nviaProcessPath: /opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64\n",
+      "modificationDate" : "2024-01-24T12:46:02Z",
+      "origin" : "alert",
+      "process" : "/Applications/iTerm.app/Contents/MacOS/iTerm2",
+      "remote-domains" : "google.com",
+      "uid" : 501,
+      "via" : "/opt/homebrew/Cellar/qemu/8.2.0/bin/qemu-system-aarch64"
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-16T13:37:29Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727105049.976262\ndirection: outgoing\norigin: alert\npeer: analytics.loft.rocks\nport: 80\nprocessPath: /Applications/iTerm.app/Contents/MacOS/iTerm2\nprotocol: 6\nviaProcessPath: /opt/homebrew/Cellar/vcluster/0.18.1/bin/vcluster\n",
       "modificationDate" : "2024-01-16T13:37:29Z",
@@ -7800,6 +8354,46 @@
       "remote-domains" : "loft.rocks",
       "uid" : 501,
       "via" : "/opt/homebrew/Cellar/vcluster/0.18.1/bin/vcluster"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-30T10:10:27Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728302227.291429\ndirection: outgoing\norigin: alert\npeer: store-ex.abcfinance.de\nport: 443\nprocessPath: /Library/Application Support/Citrix Receiver/Citrix Viewer.app/Contents/MacOS/Citrix Viewer\nprotocol: 6\n",
+      "modificationDate" : "2024-01-30T10:10:27Z",
+      "origin" : "alert",
+      "process" : "/Library/Application Support/Citrix Receiver/Citrix Viewer.app/Contents/MacOS/Citrix Viewer",
+      "remote-domains" : "abcfinance.de",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-30T10:10:37Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728302237.716051\ndirection: outgoing\norigin: alert\npeer: crl3.digicert.com\nport: 80\nprocessPath: /Library/Application Support/Citrix Receiver/Citrix Viewer.app/Contents/MacOS/Citrix Viewer\nprotocol: 6\n",
+      "modificationDate" : "2024-01-30T10:10:37Z",
+      "origin" : "alert",
+      "process" : "/Library/Application Support/Citrix Receiver/Citrix Viewer.app/Contents/MacOS/Citrix Viewer",
+      "remote-domains" : "digicert.com",
+      "uid" : 501
+    },
+    {
+      "action" : "deny",
+      "creationDate" : "2024-01-30T10:10:33Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 728302233.924014\ndirection: outgoing\norigin: alert\npeer: fp2e7a.wpc.phicdn.net\nport: 80\nprocessPath: /Library/Application Support/Citrix Receiver/Citrix Viewer.app/Contents/MacOS/Citrix Viewer\nprotocol: 6\n",
+      "modificationDate" : "2024-01-30T10:10:33Z",
+      "origin" : "alert",
+      "process" : "/Library/Application Support/Citrix Receiver/Citrix Viewer.app/Contents/MacOS/Citrix Viewer",
+      "remote-domains" : "phicdn.net",
+      "uid" : 501
+    },
+    {
+      "action" : "deny",
+      "creationDate" : "2024-01-30T10:10:35Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 728302235.846547\ndirection: outgoing\norigin: alert\npeer: cdp.thawte.com\nport: 80\nprocessPath: /Library/Application Support/Citrix Receiver/Citrix Viewer.app/Contents/MacOS/Citrix Viewer\nprotocol: 6\n",
+      "modificationDate" : "2024-01-30T10:10:35Z",
+      "origin" : "alert",
+      "process" : "/Library/Application Support/Citrix Receiver/Citrix Viewer.app/Contents/MacOS/Citrix Viewer",
+      "remote-domains" : "thawte.com",
+      "uid" : 501
     },
     {
       "action" : "allow",
@@ -8184,6 +8778,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T14:20:59Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728230859.837158\ndirection: outgoing\norigin: alert\npeer: nivios.com\nport: 80\nprocessPath: /System/Applications/Mail.app/Contents/MacOS/Mail\nprotocol: 17\n",
+      "modificationDate" : "2024-01-29T14:20:59Z",
+      "origin" : "alert",
+      "process" : "/System/Applications/Mail.app/Contents/MacOS/Mail",
+      "remote-domains" : "nivios.com",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-11-22T10:23:22Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 722341402.507989\ndirection: outgoing\norigin: alert\npeer: conferenzia.hosted.phplist.com\nport: 443\nprocessPath: /System/Applications/Mail.app/Contents/MacOS/Mail\nprotocol: 17\n",
       "modificationDate" : "2023-11-22T10:23:22Z",
@@ -8472,6 +9076,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-29T13:59:54Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728229594.790135\ndirection: outgoing\norigin: alert\npeer: 2003:e7:1727:a600:1e1b:dff:fe92:463c\nport: 445\nprocessPath: /System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthSysAgent\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T13:59:54Z",
+      "origin" : "alert",
+      "process" : "/System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthSysAgent",
+      "remote-addresses" : "2003:e7:1727:a600:1e1b:dff:fe92:463c",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-12-01T08:19:53Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 723111593.949674\ndirection: outgoing\norigin: alert\npeer: apple-finance.query.yahoo.com\nport: 443\nprocessPath: /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight\nprotocol: 6\n",
       "modificationDate" : "2023-12-01T08:19:53Z",
@@ -8561,83 +9175,13 @@
       "uid" : 501
     },
     {
-      "action" : "allow",
-      "creationDate" : "2023-12-21T13:56:11Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724859771.233836\ndirection: outgoing\norigin: alert\npeer: 01e4ba50-bea2-4fca-81e0-4aadffd37b98.local\nport: 53692\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-21T13:56:11Z",
+      "action" : "deny",
+      "creationDate" : "2024-01-25T08:36:34Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 727864594.751943\ndirection: outgoing\norigin: alert\npeer: 80d2e6f8-202c-4ec8-94b1-6edb1e97b10e.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
+      "modificationDate" : "2024-01-25T08:36:34Z",
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "01e4ba50-bea2-4fca-81e0-4aadffd37b98.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-13T08:39:52Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724149592.060504\ndirection: outgoing\norigin: alert\npeer: 0505b502-a34d-4df8-acaf-90b6710bab56.local\nport: 62712\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-13T08:39:52Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "0505b502-a34d-4df8-acaf-90b6710bab56.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-14T13:27:16Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724253236.867911\ndirection: outgoing\norigin: alert\npeer: 058e275f-13ca-4c50-b5ff-9e764c334e80.local\nport: 63033\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-14T13:27:16Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "058e275f-13ca-4c50-b5ff-9e764c334e80.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-23T07:25:55Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727687555.505005\ndirection: outgoing\norigin: alert\npeer: 09aafde8-1cd2-4fbb-acd2-d78ee2d28038.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-23T07:25:55Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "09aafde8-1cd2-4fbb-acd2-d78ee2d28038.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-05T06:24:39Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723450279.130427\ndirection: outgoing\norigin: alert\npeer: 0ae53144-d1bd-40c4-8353-226be8eefb3b.local\nport: 60817\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-05T06:24:39Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "0ae53144-d1bd-40c4-8353-226be8eefb3b.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-12T07:33:56Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724059236.674325\ndirection: outgoing\norigin: alert\npeer: 0b394b05-748d-4a6f-98e9-b572dd22e991.local\nport: 62712\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-12T07:33:56Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "0b394b05-748d-4a6f-98e9-b572dd22e991.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-07T07:40:14Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723627614.384945\ndirection: outgoing\norigin: alert\npeer: 0da5922d-5dca-41f7-a8d3-c3087cdc078a.local\nport: 62020\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-07T07:40:14Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "0da5922d-5dca-41f7-a8d3-c3087cdc078a.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-18T07:46:43Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727256803.795747\ndirection: outgoing\norigin: alert\npeer: 0fd44757-bb67-4243-93ed-02c21213327a.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-18T07:46:43Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "0fd44757-bb67-4243-93ed-02c21213327a.local",
+      "remote" : "any",
       "uid" : 501
     },
     {
@@ -8651,236 +9195,6 @@
       "uid" : 501
     },
     {
-      "action" : "allow",
-      "creationDate" : "2024-01-22T10:42:04Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727612924.089754\ndirection: outgoing\norigin: alert\npeer: 168a0681-4a3a-4db5-a2a6-931f5757a9d7.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-22T10:42:04Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "168a0681-4a3a-4db5-a2a6-931f5757a9d7.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-14T07:08:29Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724230509.123282\ndirection: outgoing\norigin: alert\npeer: 18f749d3-7357-4ef0-ab8b-3a7fb75ab89d.local\nport: 63033\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-14T07:08:29Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "18f749d3-7357-4ef0-ab8b-3a7fb75ab89d.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-11-09T13:24:36Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 721229076.177732\ndirection: outgoing\norigin: alert\npeer: 1d8a5255-8c4a-470e-8cdb-96863a73b123.local\nport: 49906\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-11-09T13:24:36Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "1d8a5255-8c4a-470e-8cdb-96863a73b123.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:39:37Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651577.387334\ndirection: outgoing\norigin: alert\npeer: 205d3c2f-b5b2-48a0-abb2-da1850522ce5.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:39:37Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "205d3c2f-b5b2-48a0-abb2-da1850522ce5.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-12T09:37:59Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726745079.889304\ndirection: outgoing\norigin: alert\npeer: 23254048-9b9b-4474-b4a8-ae53139a24d4.local\nport: 59435\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-12T09:37:59Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "23254048-9b9b-4474-b4a8-ae53139a24d4.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-24T13:39:43Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 725117983.553447\ndirection: outgoing\norigin: alert\npeer: 239c2642-591c-4c55-a54a-afa8548cfbab.local\nport: 53511\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-24T13:39:43Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "239c2642-591c-4c55-a54a-afa8548cfbab.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-11-30T06:20:08Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723018008.704016\ndirection: outgoing\norigin: alert\npeer: 251b38d9-c19d-4689-a06d-069ecf8217e2.local\nport: 53476\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-11-30T06:20:08Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "251b38d9-c19d-4689-a06d-069ecf8217e2.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:30:41Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651041.678992\ndirection: outgoing\norigin: alert\npeer: 254ef8ca-397e-46a0-84d2-273522dddba3.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:30:41Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "254ef8ca-397e-46a0-84d2-273522dddba3.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:39:48Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651588.566125\ndirection: outgoing\norigin: alert\npeer: 25a99072-7b13-4fbe-83bb-d234505595e2.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:39:48Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "25a99072-7b13-4fbe-83bb-d234505595e2.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-19T12:41:46Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724682506.505827\ndirection: outgoing\norigin: alert\npeer: 28ff2827-a93e-4a09-957b-873ec73e9f10.local\nport: 53181\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-19T12:41:46Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "28ff2827-a93e-4a09-957b-873ec73e9f10.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:39:38Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651578.178110\ndirection: outgoing\norigin: alert\npeer: 2aa6b704-956f-409f-8a2d-56b0d265add3.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:39:38Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "2aa6b704-956f-409f-8a2d-56b0d265add3.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-11-24T15:47:46Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 722533666.086425\ndirection: outgoing\norigin: alert\npeer: 2b615438-05fa-47a9-aaa2-86bd8b3d062c.local\nport: 64605\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-11-24T15:47:46Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "2b615438-05fa-47a9-aaa2-86bd8b3d062c.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-12T07:33:58Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724059238.203684\ndirection: outgoing\norigin: alert\npeer: 2b9e71d0-a4e7-43c1-b9c5-f9384259a57c.local\nport: 62712\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-12T07:33:58Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "2b9e71d0-a4e7-43c1-b9c5-f9384259a57c.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-12T07:42:28Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726738148.281633\ndirection: outgoing\norigin: alert\npeer: 2c9fb092-85cb-49ca-8e68-2a7071438083.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-12T07:42:28Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "2c9fb092-85cb-49ca-8e68-2a7071438083.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-21T08:30:02Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724840202.205659\ndirection: outgoing\norigin: alert\npeer: 2d588bcb-feb2-4946-bbc4-4f2e91e30cf7.local\nport: 61254\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-21T08:30:02Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "2d588bcb-feb2-4946-bbc4-4f2e91e30cf7.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-23T13:58:00Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727711080.485451\ndirection: outgoing\norigin: alert\npeer: 2dc2a010-1f2e-45ed-9cf0-ebfeab745fb1.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-23T13:58:00Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "2dc2a010-1f2e-45ed-9cf0-ebfeab745fb1.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-14T12:47:03Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724250823.728818\ndirection: outgoing\norigin: alert\npeer: 2e10edca-f7a8-4dc7-abcf-c8945afe5e66.local\nport: 54336\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-14T12:47:03Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "2e10edca-f7a8-4dc7-abcf-c8945afe5e66.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-16T09:01:27Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727088487.812006\ndirection: outgoing\norigin: alert\npeer: 2e2bf997-1807-4849-b7f1-068060727681.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-16T09:01:27Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "2e2bf997-1807-4849-b7f1-068060727681.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-22T08:02:22Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724924942.827893\ndirection: outgoing\norigin: alert\npeer: 31513db7-3e25-4a42-9f41-b630c58fb7ae.local\nport: 53692\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-22T08:02:22Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "31513db7-3e25-4a42-9f41-b630c58fb7ae.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-22T11:28:28Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727615708.070227\ndirection: outgoing\norigin: alert\npeer: 3ac5cf61-6115-40a1-8164-94a7fa6ca1fe.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-22T11:28:28Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "3ac5cf61-6115-40a1-8164-94a7fa6ca1fe.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-14T07:08:30Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724230510.256741\ndirection: outgoing\norigin: alert\npeer: 45dedf82-8ef2-4d19-90f8-fbce2d423ba7.local\nport: 54336\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-14T07:08:30Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "45dedf82-8ef2-4d19-90f8-fbce2d423ba7.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:39:35Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651575.699446\ndirection: outgoing\norigin: alert\npeer: 4613211d-2869-48b9-8082-bacd048636ea.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:39:35Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "4613211d-2869-48b9-8082-bacd048636ea.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:39:34Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651574.237189\ndirection: outgoing\norigin: alert\npeer: 4749302d-7f09-489b-8144-7addbe29eff5.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:39:34Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "4749302d-7f09-489b-8144-7addbe29eff5.local",
-      "uid" : 501
-    },
-    {
       "action" : "deny",
       "creationDate" : "2023-12-24T13:17:07Z",
       "factoryHelpText" : "#generated\naction: deny\ndate: 725116627.503531\ndirection: outgoing\norigin: alert\npeer: 4c3a70fc-304d-4d5c-b9bc-c92c7223f85c.local\nport: 53511\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
@@ -8888,136 +9202,6 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "remote-hosts" : "4c3a70fc-304d-4d5c-b9bc-c92c7223f85c.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-15T06:54:25Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726994465.369591\ndirection: outgoing\norigin: alert\npeer: 4e85c1e2-a63e-49e4-98cc-1a4dca7b1047.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-15T06:54:25Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "4e85c1e2-a63e-49e4-98cc-1a4dca7b1047.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-24T13:17:01Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 725116621.838565\ndirection: outgoing\norigin: alert\npeer: 52782827-aa31-414b-9e57-06b741f1f053.local\nport: 53692\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-24T13:17:01Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "52782827-aa31-414b-9e57-06b741f1f053.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-11-11T10:23:59Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 721391039.890765\ndirection: outgoing\norigin: alert\npeer: 565dafe5-68a0-4046-be33-d57b8283487a.local\nport: 49906\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-11-11T10:23:59Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "565dafe5-68a0-4046-be33-d57b8283487a.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T09:00:22Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726656422.813663\ndirection: outgoing\norigin: alert\npeer: 569d52d0-cc87-481d-b1fe-4151acbddc08.local\nport: 52330\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T09:00:22Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "569d52d0-cc87-481d-b1fe-4151acbddc08.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-12T12:25:28Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726755128.772131\ndirection: outgoing\norigin: alert\npeer: 58eaa5b2-feb2-498d-abc6-e51880fd1d01.local\nport: 59435\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-12T12:25:28Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "58eaa5b2-feb2-498d-abc6-e51880fd1d01.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-05T05:36:01Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723447361.775178\ndirection: outgoing\norigin: alert\npeer: 5ff3bb7c-4fd1-4fca-834a-79735ef4f281.local\nport: 60817\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-05T05:36:01Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "5ff3bb7c-4fd1-4fca-834a-79735ef4f281.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-12T15:17:51Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726765471.280644\ndirection: outgoing\norigin: alert\npeer: 646deb0b-651c-4a0e-8db8-63f5c4078f5a.local\nport: 59435\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-12T15:17:51Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "646deb0b-651c-4a0e-8db8-63f5c4078f5a.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-11-12T20:03:13Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 721512193.889589\ndirection: outgoing\norigin: alert\npeer: 662be9ec-b3d1-4349-bfd4-3df344198af4.local\nport: 49906\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-11-12T20:03:13Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "662be9ec-b3d1-4349-bfd4-3df344198af4.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-15T06:47:25Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724315645.693859\ndirection: outgoing\norigin: alert\npeer: 69e51036-3c4a-48c0-ac1d-e6183d9d5595.local\nport: 63033\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-15T06:47:25Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "69e51036-3c4a-48c0-ac1d-e6183d9d5595.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-22T13:22:24Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727622544.145983\ndirection: outgoing\norigin: alert\npeer: 7036e837-1bc9-472a-b980-b0e89e952720.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-22T13:22:24Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "7036e837-1bc9-472a-b980-b0e89e952720.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:39:36Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651576.566202\ndirection: outgoing\norigin: alert\npeer: 729259b9-8068-4cb0-a69d-258252ce1377.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:39:36Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "729259b9-8068-4cb0-a69d-258252ce1377.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-19T12:27:42Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724681662.742057\ndirection: outgoing\norigin: alert\npeer: 74648bb3-1609-4dfe-b897-44eaa668c930.local\nport: 55596\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-19T12:27:42Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "74648bb3-1609-4dfe-b897-44eaa668c930.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-15T06:47:23Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724315643.099569\ndirection: outgoing\norigin: alert\npeer: 748f1e45-ce94-41de-b671-6c6849843511.local\nport: 63033\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-15T06:47:23Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "748f1e45-ce94-41de-b671-6c6849843511.local",
       "uid" : 501
     },
     {
@@ -9031,16 +9215,6 @@
       "uid" : 501
     },
     {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:30:48Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651048.761554\ndirection: outgoing\norigin: alert\npeer: 7b0ef001-0435-411d-a920-03f4bf6ced77.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:30:48Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "7b0ef001-0435-411d-a920-03f4bf6ced77.local",
-      "uid" : 501
-    },
-    {
       "action" : "deny",
       "creationDate" : "2024-01-22T07:40:29Z",
       "factoryHelpText" : "#generated\naction: deny\ndate: 727602029.597648\ndirection: outgoing\norigin: alert\npeer: 81d47b4f-4b27-4e1e-ad13-48ab3bc5bf70.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
@@ -9048,16 +9222,6 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "remote-hosts" : "81d47b4f-4b27-4e1e-ad13-48ab3bc5bf70.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-05T06:53:11Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723451991.701351\ndirection: outgoing\norigin: alert\npeer: 8dc1b7d1-dd6a-4bb8-b9a2-da06ce19f5ed.local\nport: 60817\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-05T06:53:11Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "8dc1b7d1-dd6a-4bb8-b9a2-da06ce19f5ed.local",
       "uid" : 501
     },
     {
@@ -9071,59 +9235,6 @@
       "uid" : 501
     },
     {
-      "action" : "allow",
-      "creationDate" : "2024-01-09T07:28:59Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726478139.280604\ndirection: outgoing\norigin: alert\npeer: 91c95f34-5833-4d04-b73e-deaa7e62450d.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-09T07:28:59Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "91c95f34-5833-4d04-b73e-deaa7e62450d.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-12T12:17:35Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726754655.871608\ndirection: outgoing\norigin: alert\npeer: 94140610-6402-46dc-8c00-6991b7d75c51.local\nport: 59435\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-12T12:17:35Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "94140610-6402-46dc-8c00-6991b7d75c51.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-15T10:24:31Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724328671.309883\ndirection: outgoing\norigin: alert\npeer: 955de76c-dd89-474f-a234-0ff7a4a5dd25.local\nport: 54336\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-15T10:24:31Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "955de76c-dd89-474f-a234-0ff7a4a5dd25.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-22T07:50:08Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727602608.743847\ndirection: outgoing\norigin: alert\npeer: 98669fdf-2e39-4f2b-ada3-e0dc8353a073.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-22T07:50:08Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "98669fdf-2e39-4f2b-ada3-e0dc8353a073.local",
-      "uid" : 501
-    },
-    {
-      "action" : "suggestion",
-      "approved" : false,
-      "creationDate" : "2024-01-22T07:49:49Z",
-      "factoryHelpText" : "#generated\naction: deny\ndate: 727602589.106853\ndirection: outgoing\norigin: automatic OS update\npeer: 98669fdf-2e39-4f2b-ada3-e0dc8353a073.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-22T07:49:49Z",
-      "origin" : "osUpdate",
-      "ports" : "55586",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "protocol" : "udp",
-      "remote-hosts" : "98669fdf-2e39-4f2b-ada3-e0dc8353a073.local",
-      "uid" : 501
-    },
-    {
       "action" : "deny",
       "creationDate" : "2024-01-24T07:12:47Z",
       "factoryHelpText" : "#generated\naction: deny\ndate: 727773167.817315\ndirection: outgoing\norigin: alert\npeer: 9e48b15f-a5bc-48e8-8377-54172ba2aecd.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
@@ -9131,186 +9242,6 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "remote-hosts" : "9e48b15f-a5bc-48e8-8377-54172ba2aecd.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-19T08:49:25Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727346965.424287\ndirection: outgoing\norigin: alert\npeer: 9facb14e-1dcc-4a3d-bfb2-21810a210797.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-19T08:49:25Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "9facb14e-1dcc-4a3d-bfb2-21810a210797.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-21T08:38:21Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724840701.087393\ndirection: outgoing\norigin: alert\npeer: a0f1f82c-c613-4e72-b6f6-89c0eb8563df.local\nport: 61254\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-21T08:38:21Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "a0f1f82c-c613-4e72-b6f6-89c0eb8563df.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-14T09:53:58Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724240438.137942\ndirection: outgoing\norigin: alert\npeer: a1d0f58b-dcbb-4ccb-9c2a-71e13b6e9e14.local\nport: 54336\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-14T09:53:58Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "a1d0f58b-dcbb-4ccb-9c2a-71e13b6e9e14.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-14T18:56:05Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726951365.581105\ndirection: outgoing\norigin: alert\npeer: a2d0d21f-f9f0-4fe3-9c59-0c60696c2fe3.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-14T18:56:05Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "a2d0d21f-f9f0-4fe3-9c59-0c60696c2fe3.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-19T08:49:27Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727346967.015254\ndirection: outgoing\norigin: alert\npeer: a55a8863-e550-41eb-b09a-d0468b985d8d.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-19T08:49:27Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "a55a8863-e550-41eb-b09a-d0468b985d8d.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-22T07:40:30Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727602030.451012\ndirection: outgoing\norigin: alert\npeer: a7831a74-aafa-4345-8125-6e25d5e0fcb0.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-22T07:40:30Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "a7831a74-aafa-4345-8125-6e25d5e0fcb0.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-14T07:08:27Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724230507.885297\ndirection: outgoing\norigin: alert\npeer: ae792e8b-7642-4585-9eb1-13dbaf367610.local\nport: 63033\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-14T07:08:27Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "ae792e8b-7642-4585-9eb1-13dbaf367610.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-18T07:57:33Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727257453.937638\ndirection: outgoing\norigin: alert\npeer: b2bd60f6-5b5a-40e3-b1f5-3c7ca559ecfd.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-18T07:57:33Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "b2bd60f6-5b5a-40e3-b1f5-3c7ca559ecfd.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-09T07:28:39Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726478119.862287\ndirection: outgoing\norigin: alert\npeer: b2dae983-69db-4289-a208-40ab0129490b.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-09T07:28:39Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "b2dae983-69db-4289-a208-40ab0129490b.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-14T07:08:26Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724230506.065503\ndirection: outgoing\norigin: alert\npeer: b454115f-7199-4af4-a27d-439f618de1ee.local\nport: 63033\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-14T07:08:26Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "b454115f-7199-4af4-a27d-439f618de1ee.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-24T07:12:44Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727773164.714562\ndirection: outgoing\norigin: alert\npeer: b5dc7979-e73f-4230-bb5b-2a56ca7eba3a.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-24T07:12:44Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "b5dc7979-e73f-4230-bb5b-2a56ca7eba3a.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-14T18:55:57Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726951357.083167\ndirection: outgoing\norigin: alert\npeer: b602d512-170d-4f42-a2a1-5f9528025af5.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-14T18:55:57Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "b602d512-170d-4f42-a2a1-5f9528025af5.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-15T06:54:26Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726994466.576154\ndirection: outgoing\norigin: alert\npeer: b9c0c68a-598a-446c-8f8b-31ef46ef88f6.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-15T06:54:26Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "b9c0c68a-598a-446c-8f8b-31ef46ef88f6.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-09T15:40:41Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726507641.566527\ndirection: outgoing\norigin: alert\npeer: ba9d8d9d-7cd6-4250-bc5a-d67701145964.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-09T15:40:41Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "ba9d8d9d-7cd6-4250-bc5a-d67701145964.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-12T15:17:49Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726765469.775727\ndirection: outgoing\norigin: alert\npeer: bb683178-7e68-4a53-8cd1-a16fb0449ddc.local\nport: 59435\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-12T15:17:49Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "bb683178-7e68-4a53-8cd1-a16fb0449ddc.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-20T07:25:01Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724749901.604939\ndirection: outgoing\norigin: alert\npeer: bf38e8c7-d752-413c-822f-6e1c7bcc5564.local\nport: 55596\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-20T07:25:01Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "bf38e8c7-d752-413c-822f-6e1c7bcc5564.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-28T14:22:07Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 725466127.093719\ndirection: outgoing\norigin: alert\npeer: c050d4c3-9a33-4c48-a845-83e0e71bd9a6.local\nport: 62420\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-28T14:22:07Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "c050d4c3-9a33-4c48-a845-83e0e71bd9a6.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-18T11:51:01Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727271461.688097\ndirection: outgoing\norigin: alert\npeer: c202bfe8-105b-4f61-9ae3-6e42a411ea86.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-18T11:51:01Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "c202bfe8-105b-4f61-9ae3-6e42a411ea86.local",
       "uid" : 501
     },
     {
@@ -9324,16 +9255,6 @@
       "uid" : 501
     },
     {
-      "action" : "allow",
-      "creationDate" : "2023-12-18T20:54:42Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724625682.774902\ndirection: outgoing\norigin: alert\npeer: cd9632d4-b88b-4a06-a826-d2fc9e822f98.local\nport: 63033\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-18T20:54:42Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "cd9632d4-b88b-4a06-a826-d2fc9e822f98.local",
-      "uid" : 501
-    },
-    {
       "action" : "deny",
       "creationDate" : "2024-01-15T06:54:48Z",
       "factoryHelpText" : "#generated\naction: deny\ndate: 726994488.859094\ndirection: outgoing\norigin: alert\npeer: ce281239-087b-49a4-a3cc-334e4f2eb9ca.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
@@ -9341,46 +9262,6 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
       "remote-hosts" : "ce281239-087b-49a4-a3cc-334e4f2eb9ca.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T08:54:13Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726656053.944194\ndirection: outgoing\norigin: alert\npeer: d2a041f3-779f-4701-8d22-23ea2b458a24.local\nport: 52330\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T08:54:13Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "d2a041f3-779f-4701-8d22-23ea2b458a24.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-11-24T15:42:33Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 722533353.390312\ndirection: outgoing\norigin: alert\npeer: d2bc709e-13b5-40c5-9202-1dec5aa5dd47.local\nport: 64605\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-11-24T15:42:33Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "d2bc709e-13b5-40c5-9202-1dec5aa5dd47.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-14T18:56:06Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726951366.739455\ndirection: outgoing\norigin: alert\npeer: d45d9ac8-628f-417e-9381-9bd8b5c4e1d0.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-14T18:56:06Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "d45d9ac8-628f-417e-9381-9bd8b5c4e1d0.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-24T07:12:43Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727773163.823984\ndirection: outgoing\norigin: alert\npeer: d72f099a-95e4-4ee9-8e5b-2fc36fc6ef09.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-24T07:12:43Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "d72f099a-95e4-4ee9-8e5b-2fc36fc6ef09.local",
       "uid" : 501
     },
     {
@@ -9394,83 +9275,23 @@
       "uid" : 501
     },
     {
-      "action" : "allow",
-      "creationDate" : "2024-01-23T10:02:25Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727696945.369037\ndirection: outgoing\norigin: alert\npeer: e5a51890-520c-4907-890d-a1a85b2f5634.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-23T10:02:25Z",
+      "action" : "deny",
+      "creationDate" : "2024-01-24T13:25:26Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 727795526.160336\ndirection: outgoing\norigin: alert\npeer: f49bde4b-f18f-498f-815b-f93694aa00da.local\nport: 51204\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:25:26Z",
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "e5a51890-520c-4907-890d-a1a85b2f5634.local",
+      "remote-hosts" : "f49bde4b-f18f-498f-815b-f93694aa00da.local",
       "uid" : 501
     },
     {
       "action" : "allow",
-      "creationDate" : "2023-12-14T07:08:48Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724230528.302472\ndirection: outgoing\norigin: alert\npeer: e9ed1113-61a2-4e5f-a2e7-f47cc2964848.local\nport: 63033\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-14T07:08:48Z",
-      "origin" : "alert",
+      "creationDate" : "2024-01-29T13:01:10Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 727602589.106853\ndirection: outgoing\norigin: automatic OS update\npeer: 98669fdf-2e39-4f2b-ada3-e0dc8353a073.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
+      "modificationDate" : "2024-01-29T13:01:10Z",
+      "origin" : "frontend",
       "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "e9ed1113-61a2-4e5f-a2e7-f47cc2964848.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-11-22T10:48:48Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 722342928.654708\ndirection: outgoing\norigin: alert\npeer: efbfffc6-339d-41bb-9e57-22768eaff0d9.local\nport: 64605\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-11-22T10:48:48Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "efbfffc6-339d-41bb-9e57-22768eaff0d9.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-18T08:26:41Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 727259201.018886\ndirection: outgoing\norigin: alert\npeer: efc2c3cb-7c92-4124-9819-660c39537d66.local\nport: 55586\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-18T08:26:41Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "efc2c3cb-7c92-4124-9819-660c39537d66.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-11-30T06:46:02Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 723019562.391267\ndirection: outgoing\norigin: alert\npeer: f494ba73-9600-4131-868b-e4ba0ba79613.local\nport: 53476\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-11-30T06:46:02Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "f494ba73-9600-4131-868b-e4ba0ba79613.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-15T06:54:41Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726994481.155510\ndirection: outgoing\norigin: alert\npeer: fada764f-6d21-43d3-a9f3-266ee1b8a8cb.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-15T06:54:41Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "fada764f-6d21-43d3-a9f3-266ee1b8a8cb.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2024-01-11T07:39:47Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 726651587.325395\ndirection: outgoing\norigin: alert\npeer: fb56e9af-a2f7-469a-b6de-c08ed089eeb1.local\nport: 49687\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2024-01-11T07:39:47Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "fb56e9af-a2f7-469a-b6de-c08ed089eeb1.local",
-      "uid" : 501
-    },
-    {
-      "action" : "allow",
-      "creationDate" : "2023-12-22T13:16:44Z",
-      "factoryHelpText" : "#generated\naction: allow\ndate: 724943804.123036\ndirection: outgoing\norigin: alert\npeer: fe1a2cc5-6340-42dd-a47b-9093ffc5edf9.local\nport: 53882\nprocessPath: /System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod\nprotocol: 17\n",
-      "modificationDate" : "2023-12-22T13:16:44Z",
-      "origin" : "alert",
-      "process" : "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
-      "remote-hosts" : "fe1a2cc5-6340-42dd-a47b-9093ffc5edf9.local",
+      "remote-domains" : "local",
       "uid" : 501
     },
     {
@@ -9727,6 +9548,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-24T13:38:26Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796306.710601\ndirection: outgoing\norigin: alert\npeer: 17.252.29.130\nport: 3480\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:38:26Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-addresses" : "17.252.29.130",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2023-11-22T13:19:13Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 722351953.483843\ndirection: outgoing\norigin: alert\npeer: 17.252.29.135\nport: 3487\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
       "modificationDate" : "2023-11-22T13:19:13Z",
@@ -9763,6 +9594,16 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "remote-addresses" : "17.252.29.199",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T13:38:11Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796291.642763\ndirection: outgoing\norigin: alert\npeer: 17.252.76.167\nport: 3486\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:38:11Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-addresses" : "17.252.76.167",
       "uid" : 501
     },
     {
@@ -9987,6 +9828,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-24T13:38:35Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796315.919390\ndirection: outgoing\norigin: alert\npeer: 2a01:599:91a:608c:a136:b691:c32b:6490\nport: 16394\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:38:35Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-addresses" : "2a01:599:91a:608c:a136:b691:c32b:6490",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-17T13:41:49Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727191709.998594\ndirection: outgoing\norigin: alert\npeer: 2a01:599:920:617b:4866:6257:bc98:ed8e\nport: 16394\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
       "modificationDate" : "2024-01-17T13:41:49Z",
@@ -10013,6 +9864,16 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "remote-addresses" : "2a01:b740:a42:202::23",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T13:38:28Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796308.072531\ndirection: outgoing\norigin: alert\npeer: 2a01:b740:a42:204::10\nport: 3480\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:38:28Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-addresses" : "2a01:b740:a42:204::10",
       "uid" : 501
     },
     {
@@ -10053,6 +9914,16 @@
       "origin" : "alert",
       "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
       "remote-addresses" : "2a01:b740:a42:205::1b",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-24T13:38:13Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727796293.033996\ndirection: outgoing\norigin: alert\npeer: 2a01:b740:a42:503::7\nport: 3486\nprocessPath: /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-24T13:38:13Z",
+      "origin" : "alert",
+      "process" : "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-addresses" : "2a01:b740:a42:503::7",
       "uid" : 501
     },
     {
@@ -10454,6 +10325,16 @@
     },
     {
       "action" : "allow",
+      "creationDate" : "2024-01-30T09:38:35Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728300315.041170\ndirection: outgoing\norigin: alert\npeer: 2003:e7:171a:a300:18af:2749:b07d:5682\nport: 49153\nprocessPath: /usr/libexec/rapportd\nprotocol: 6\n",
+      "modificationDate" : "2024-01-30T09:38:35Z",
+      "origin" : "alert",
+      "process" : "/usr/libexec/rapportd",
+      "remote-addresses" : "2003:e7:171a:a300:18af:2749:b07d:5682",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
       "creationDate" : "2024-01-24T07:12:39Z",
       "factoryHelpText" : "#generated\naction: allow\ndate: 727773159.023633\ndirection: outgoing\norigin: alert\npeer: 2003:e7:1727:a600:82b:3f62:ca47:bd45\nport: 49153\nprocessPath: /usr/libexec/rapportd\nprotocol: 6\n",
       "modificationDate" : "2024-01-24T07:12:39Z",
@@ -10470,6 +10351,16 @@
       "origin" : "alert",
       "process" : "/usr/libexec/rapportd",
       "remote-addresses" : "2003:e7:1727:a600:cdd:f149:f6d8:f39f",
+      "uid" : 501
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-25T08:13:52Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 727863232.079685\ndirection: outgoing\norigin: alert\npeer: 2003:e7:1727:a600:1014:8197:3827:856c\nport: 3722\nprocessPath: /usr/libexec/rapportd\nprotocol: 17\n",
+      "modificationDate" : "2024-01-25T08:13:52Z",
+      "origin" : "alert",
+      "process" : "/usr/libexec/rapportd",
+      "remote-addresses" : "2003:e7:1727:a600:1014:8197:3827:856c",
       "uid" : 501
     },
     {
@@ -10542,6 +10433,19 @@
       "uid" : 501
     },
     {
+      "action" : "suggestion",
+      "approved" : false,
+      "creationDate" : "2024-01-29T08:58:29Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 728211509.124739\ndirection: outgoing\norigin: automatic login\npeer: ocsp2.apple.com\nport: 443\nprocessPath: /usr/libexec/trustd\nprotocol: 6\n",
+      "modificationDate" : "2024-01-29T08:58:29Z",
+      "origin" : "preLogin",
+      "ports" : "443",
+      "process" : "/usr/libexec/trustd",
+      "protocol" : "tcp",
+      "remote-hosts" : "ocsp2.apple.com",
+      "uid" : 501
+    },
+    {
       "action" : "allow",
       "creationDate" : "2023-11-08T19:10:58Z",
       "factoryID" : 419,
@@ -10551,6 +10455,16 @@
       "process" : "/usr/libexec/wifid",
       "protected" : true,
       "remote" : "bpf"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : "2024-01-30T09:29:48Z",
+      "factoryHelpText" : "#generated\naction: allow\ndate: 728299788.112095\ndirection: outgoing\norigin: alert\npeer: 1.1.1.1\nport: 0\nprocessPath: /usr/libexec/wifivelocityd\nprotocol: 1\n",
+      "modificationDate" : "2024-01-30T09:29:48Z",
+      "origin" : "alert",
+      "owner" : "system",
+      "process" : "/usr/libexec/wifivelocityd",
+      "remote-addresses" : "1.1.1.1"
     },
     {
       "action" : "allow",
@@ -10612,6 +10526,42 @@
       "process" : "/usr/sbin/mDNSResponder",
       "protected" : true,
       "remote" : "any"
+    },
+    {
+      "action" : "suggestion",
+      "approved" : false,
+      "creationDate" : "2024-01-29T07:35:34Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 728206534.177674\ndirection: outgoing\norigin: automatic login\npeer: 1.0.0.1\nport: 0\nprocessPath: /usr/sbin/mDNSResponder\nprotocol: 17\n",
+      "modificationDate" : "2024-01-29T07:35:34Z",
+      "origin" : "preLogin",
+      "owner" : "system",
+      "process" : "/usr/sbin/mDNSResponder",
+      "protocol" : "udp",
+      "remote-addresses" : "1.0.0.1"
+    },
+    {
+      "action" : "suggestion",
+      "approved" : false,
+      "creationDate" : "2024-01-29T07:35:31Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 728206531.325044\ndirection: outgoing\norigin: automatic login\npeer: 1.1.1.1\nport: 0\nprocessPath: /usr/sbin/mDNSResponder\nprotocol: 17\n",
+      "modificationDate" : "2024-01-29T07:35:31Z",
+      "origin" : "preLogin",
+      "owner" : "system",
+      "process" : "/usr/sbin/mDNSResponder",
+      "protocol" : "udp",
+      "remote-addresses" : "1.1.1.1"
+    },
+    {
+      "action" : "suggestion",
+      "approved" : false,
+      "creationDate" : "2024-01-29T07:35:24Z",
+      "factoryHelpText" : "#generated\naction: deny\ndate: 728206524.398442\ndirection: outgoing\norigin: automatic login\npeer: 2003:e7:1727:a600::1\nport: 0\nprocessPath: /usr/sbin/mDNSResponder\nprotocol: 17\n",
+      "modificationDate" : "2024-01-29T07:35:24Z",
+      "origin" : "preLogin",
+      "owner" : "system",
+      "process" : "/usr/sbin/mDNSResponder",
+      "protocol" : "udp",
+      "remote-addresses" : "2003:e7:1727:a600::1"
     },
     {
       "action" : "allow",
@@ -10872,10 +10822,44 @@
         "confirmWithReturnKey" : 1,
         "defaultRuleLifetimeForCreatingRulesInAlert" : 0,
         "detailLevelPortAndProtocol" : 3,
+        "monitorHotKey" : "6400@46",
+        "monitorHotKeyEnabled" : 1,
+        "monitorShowLastMinutes" : 10080,
+        "monitorShowMyLocationBanner" : 1,
+        "monitorStatusItemClickActivation" : 0,
+        "primitive_showSilentModeInStatusItem" : 1,
+        "primitive_showStatusItem" : 1,
+        "respectMyPrivacy" : 1,
+        "showInactivityWarning" : 1,
+        "showNetworkActivityInMenubar" : 1,
+        "showNumericalDataRatesInStatusItem" : 0,
+        "useActiveProfileWhenCreatingRulesInAlert" : 1,
+        "useColorTrafficMeters" : 1
+      },
+      "fullName" : "System Administrator",
+      "shortName" : "root",
+      "uid" : 0
+    },
+    {
+      "defaults" : {
+        "allowGlobalEditing" : 0,
+        "allowGUIScripting" : 1,
+        "allowPreferencesEditing" : 1,
+        "allowProfileSwitching" : 1,
+        "allowRuleAndProfileEditing" : 1,
+        "approveRulesAutomatically" : 1,
+        "autoConfirmationAction" : 1,
+        "autoConfirmationDelay" : 45,
+        "confirmAutomatically" : 0,
+        "confirmWithReturnKey" : 1,
+        "defaultRuleLifetimeForCreatingRulesInAlert" : 0,
+        "detailLevelPortAndProtocol" : 3,
         "dontShowDenyConsequencesAgain" : [
 
         ],
+        "geoViewMyLocationLatitude" : 50,
         "GeoViewMyLocationLatitude" : 50,
+        "geoViewMyLocationLongitude" : -34,
         "GeoViewMyLocationLongitude" : -34,
         "minimizedConnectionAlertPosition" : 4,
         "monitorHotKey" : "6400@46",
