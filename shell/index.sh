@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 if [[ "$0" == "-bash" ]] ; then
   if [ -z "$include_path" ]; then
     include_path=$(dirname $(find / -name index.sh 2>/dev/null  | head -n1))

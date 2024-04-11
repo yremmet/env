@@ -1,15 +1,18 @@
 #!/bin/bash
+# shellcheck disable=SC1091
 source setup/environment
 
-if [[ ! -f ~/env/shell/output.sh && $(find "~/env/shell/output.sh" -mtime +14 -print) ]]; then
+if [[ ! -f ~/env/shell/output.sh || $(find "$HOME/env/shell/output.sh" -mtime +14 -print) ]]; then
     curl --silent https://gist.github.com/yremmet/1a77ac70b1a24cb901e28233219c5663/raw -Lo ~/env/shell/output.sh
 fi
-. ~/env/shell/output.sh
+# shellcheck disable=SC1091
+. $HOME/env/shell/output.sh
 
 header Check Envionment
 if [ ! -f "./env" ]; then
     
     warn "Env File does not exist. Name environment."
+    # shellcheck disable=SC2162
     read env_name
     if [ ! -f "./envs/$env_name" ]; then
         fail "No pre configured environment found. Create new config and run again"
@@ -24,13 +27,15 @@ info "Reading Environment File"
 readEnv type "TYPE"
 readEnv newHostname "HOSTNAME"
 
+# shellcheck disable=SC2154
 if [ "$type" == "ubuntu" ]; then
+  # shellcheck disable=SC1091
   . setup/ubuntu
   install
 fi
 
-pushd $HOME
-    if [ -d "~/.oh-my-zsh" ]; then
+pushd "$HOME" || exit
+    if [ ! -d "$HOME/.oh-my-zsh" ]; then
         info "Installing zsh"
         sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     else 
@@ -43,15 +48,17 @@ pushd $HOME
     else 
         info "Brew already installed"
     fi
-popd
+popd || exit
 
 info "Copying zshrc"
-cp $HOME/env/.zshrc $HOME/
+cp "$HOME/env/.zshrc" "$HOME/"
 
 
 if [ "$type" == "macOS" ]; then
     header "Install macOs"
+    # shellcheck disable=SC1091
     . setup/brew
+    # shellcheck disable=SC1091
     . setup/asdf
 
     readEnv bundles "BUNDLES"
@@ -60,23 +67,27 @@ if [ "$type" == "macOS" ]; then
     readEnv lockmsg "LOCKMESSAGE"
     readEnv code "CODE"
     
-    if [ -d "~/.hammerspoon" ]; then
+    if [ -d "$HOME/.hammerspoon" ]; then
         echo "Setup Hammerspoon"
-        ln -s /Users/yremmet/env/mac/hammerspoon .hammerspoon
+        ln -s $HOME/env/mac/hammerspoon .hammerspoon
     fi
+
     header2 "Brew"
+    # shellcheck disable=SC2154 
     for bundle in $bundles; do
         echo "";
-        installBundle $bundle
+        installBundle "$bundle"
     done
 
     header2 "Asdf"
+    # shellcheck disable=SC2154 
     for lang in $asdf; do
         echo "Installing ${lang}"
-        lang $lang
+        lang "$lang"
         echo ""
     done
 
+    # shellcheck disable=SC2206
     asdfarr=($asdfversion)
     
     for (( i=0; i<${#asdfarr[@]} ; i+=2 )) ; do
@@ -85,29 +96,35 @@ if [ "$type" == "macOS" ]; then
     done
 
     header2 "Code"
+    # shellcheck disable=SC2154
     for c in $code; do
         code --install-extension $c
     done
 
     header2 "Setting UP Mac Configs"
+    # shellcheck disable=SC1091
     . setup/mac
     installHackFont
-    defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/env/mac/iterm" 
+    defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "$HOME/env/mac/iterm" 
     setSaneDefaults
     setupDock
     setupLoginItems
     currHostname=$(scutil --get HostName)
-    if [ $currHostname != $newHostname ]; then
+    # shellcheck disable=SC2154
+    if [ "$currHostname" != "$newHostname" ]; then
         info "Update Hostname"
-        sudo scutil --set HostName ${newHostname}
+        sudo scutil --set HostName "${newHostname}"
     fi
     info "Update Lock Msg"
+    # shellcheck disable=SC2154
     sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "${lockmsg}"
 fi
 
 if [ "$type" == "ubuntu" ]; then
     header "Setup Ubuntu"
+    # shellcheck disable=SC1091
     . setup/brew
+    # shellcheck disable=SC1091
     . setup/asdf
 
     readEnv bundles "BUNDLES"
@@ -116,14 +133,15 @@ if [ "$type" == "ubuntu" ]; then
     
     for bundle in $bundles; do
         echo "";
-        installBundle $bundle
+        installBundle "$bundle"
     done
 
     for lang in $asdf; do
-        lang $lang
+        lang "$lang"
         echo ""
     done
 
+    # shellcheck disable=SC2206
     asdfarr=( $asdfversion )
     for (( i=0; i<${#asdfarr[@]} ; i+=2 )) ; do
         langVersion "${asdfarr[i]}" "${asdfarr[i+1]}"

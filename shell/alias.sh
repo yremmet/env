@@ -1,4 +1,4 @@
-
+#!/bin/zsh
 if  [ -x "$(command -v exa)" ]; then
   alias ls="exa -abghl --git --color=automatic"
 fi
@@ -26,7 +26,7 @@ if  [ -x "$(command -v music)" ]; then
 fi
 
 alias weather='curl wttr.in/Wiesbaden'
-alias dev="cd $DEV_PATH"
+alias dev='cd $DEV_PATH'
 
 if  [ -x "$(command -v brew)" ]; then
   alias uuc="brew update && brew upgrade && brew cleanup"

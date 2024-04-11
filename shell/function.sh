@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 pathdir=$(dirname $0)
 
 if [ ! -f output.sh ]; then
