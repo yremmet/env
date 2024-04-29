@@ -142,6 +142,13 @@ function getCookie()
 
   hs.alert.showWithImage(fortune, image, nil, nil, 10)
 end
-
+---
+function teams_step_one()
+  l = hs.logger.new('teams', 'debug')
+  l.i("Triggerd teams workflow")
+  hs.osascript.applescript("activate application \"Microsoft Teams (work preview)\"\ndelay 2\ntell application \"System Events\" to keystroke \"N\" using {shift down, command down}\ndelay 1.5\ntell application \"System Events\" to keystroke \"yannic remmet\" using {shift down}\ndelay 1\ntell application \"System Events\" to key code 36")
+end
+---
 local cookie = hs.hotkey.bind({}, 'F2', getCookie, nil)
+local teams = hs.hotkey.bind({'cmd', 'shift', 'alt' }, '+', teams_step_one, nil)
 hs.alert.show("Config loaded")
