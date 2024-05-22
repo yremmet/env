@@ -13,7 +13,7 @@ export LANG=de_DE.UTF-8
 export DEV_PATH="~/DEV"
 
 if [ $(uname) = "Darwin" ]; then
-  plugins=(git docker docker-compose kubectl thefuck osx iterm2)
+  plugins=(git docker docker-compose kubectl thefuck macos iterm2)
 else 
   plugins=(git)
 fi
@@ -26,5 +26,8 @@ if [ -d "~/env/secrets/" ]; then
   . $f
   done
 fi
+
+. $(brew --prefix asdf)/libexec/asdf.sh
+
 
 eval "$(direnv hook zsh)"
