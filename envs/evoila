@@ -1,0 +1,21 @@
+[NAME]
+evoila
+[TYPE]
+macOS
+[BUNDLES]
+Quickstart
+Essentials
+[ASDF]
+elixir golang erlang maven nodejs
+[ASDF-VERSION]
+java openjdk-17
+[CODE]
+eamodio.gitlens
+Grafana.vscode-jsonnet
+shd101wyy.markdown-preview-enhanced
+jebbs.plantuml
+ms-vscode-remote.remote-ssh
+golang.go
+ms-azuretools.vscode-docker
+jebbs.plantuml
+Yog.yog-plantuml-highlight

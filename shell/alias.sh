@@ -1,6 +1,6 @@
 #!/bin/zsh
-if  [ -x "$(command -v exa)" ]; then
-  alias ls="exa -abghl --git --color=automatic"
+if  [ -x "$(command -v eza)" ]; then
+  alias ls="eza -abghl --git --color=automatic"
 fi
 
 if  [ -x "$(command -v nvim)" ]; then
