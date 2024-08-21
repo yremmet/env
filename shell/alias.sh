@@ -3,6 +3,10 @@ if  [ -x "$(command -v eza)" ]; then
   alias ls="eza -abghl --git --color=automatic"
 fi
 
+if  [ -x "$(command -v podman)" ]; then
+  alias docker="podman"
+fi
+
 if  [ -x "$(command -v nvim)" ]; then
   alias vim="nvim"
 fi
@@ -34,6 +38,7 @@ fi
 
 # KUBECTL
 if  [ -x "$(command -v kubectl)" ]; then
+  print "kubectl!!"
   alias k="kubectl"
   alias kg="kubectl get all -n"
   alias ka="kubectl get all -A"
@@ -44,4 +49,11 @@ if  [ -x "$(command -v kubectl)" ]; then
   alias kc="kubectl apply"
   alias kx="kubectl config use-context"
   alias kxs="kubectl config get-contexts"
+else 
+  echo "no kubectl"
+fi
+
+if [ -x "$(command -v 'zoxide')" ]; then
+  eval "$(zoxide init zsh)"
+#  alias cd="zoxide"
 fi

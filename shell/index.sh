@@ -8,7 +8,8 @@ if [[ "$0" == "-bash" ]] ; then
 else
   include_path=$(dirname "$0")
 fi
-
+echo "include ${include_path}/alias"
 . ${include_path}/alias.sh
 . ${include_path}/function.sh
+echo "include ${include_path}/function"
 
