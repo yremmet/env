@@ -13,13 +13,12 @@ export LANG=de_DE.UTF-8
 export DEV_PATH="~/DEV"
 
 if [ $(uname) = "Darwin" ]; then
-  plugins=(git docker docker-compose kubectl thefuck macos iterm2)
+  plugins=(git docker docker-compose podman thefuck macos iterm2)
 else 
   plugins=(git)
 fi
 
-[ -f ~/env/shell/index.sh  ] && source ~/env/shell/index.sh 
-[ -f ~/.asdf/plugins/java/set-java-home.zzh ] && source ~/.asdf/plugins/java/set-java-home.zsh
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 if [ -d "~/env/secrets/" ]; then
   for f in $(ls ~/env/secrets/); do
@@ -27,7 +26,9 @@ if [ -d "~/env/secrets/" ]; then
   done
 fi
 
-. $(brew --prefix asdf)/libexec/asdf.sh
-
+[ -f ~/env/shell/index.sh  ] && source ~/env/shell/index.sh 
+[ -f ~/.asdf/plugins/java/set-java-home.zzh ] && source ~/.asdf/plugins/java/set-java-home.zsh
 
 eval "$(direnv hook zsh)"
+
+GO_PATH="~/dev/golang/"
