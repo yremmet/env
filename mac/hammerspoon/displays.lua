@@ -1,6 +1,6 @@
 inputDevice="Anker PowerConf C200"
 outputDevice="LG Ultra HD"
-headphones="External Headphones"
+headphones="Realtek USB2.0 Audio"
 interal=true
 function windowWatcher()
     l = hs.logger.new('display', 'debug')

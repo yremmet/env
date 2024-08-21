@@ -12,6 +12,7 @@ function dump(o)
       return tostring(o)
    end
 end
+
 function reloadConfig(files)
     doReload = false
     if files == nil then
@@ -47,11 +48,11 @@ end
 -- Display IO 
 require('displays')
 --- Watcher
-cWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/Downloads/", citrix):start()
+--- cWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/Downloads/", citrix):start() -- diabled weil kein citrix 
 myWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reloadConfig):start()
 
 --- Window Manager
-require('window')
+--require('window')
 require('iterm')
 
 function teams_step_one()
@@ -62,6 +63,6 @@ end
 ---
 
 
-local cookie = hs.hotkey.bind({}, 'F2', getCookie, nil)
-local teams = hs.hotkey.bind({'cmd', 'shift', 'alt' }, '+', teams_step_one, nil)
+--local cookie = hs.hotkey.bind({}, 'F2', getCookie, nil)
+--local teams = hs.hotkey.bind({'cmd', 'shift', 'alt' }, '+', teams_step_one, nil)
 hs.alert.show("Config loaded")
