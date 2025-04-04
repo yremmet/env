@@ -8,10 +8,6 @@ fi
 . $pathdir/output.sh
 
 
-function code () {
-    open $1 -a Visual\ Studio\ Code
-}
-
 function delete-tag() {
 	git push --delete origin $1
 	git tag --delete $1

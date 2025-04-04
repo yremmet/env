@@ -32,3 +32,4 @@ fi
 eval "$(direnv hook zsh)"
 
 GO_PATH="~/dev/golang/"
+export PATH="$HOME/.local/bin:$PATH"
